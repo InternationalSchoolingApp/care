@@ -1,12 +1,12 @@
 "usse client"
-import { ThemeChanger } from '@components/ThemeChanger'
+import CommonHeader from '@components/CommonHeader'
 import React from 'react'
 
 const HomePage = () => {
 
   return (
-    <div>
-      <ThemeChanger />
+    <div className='h-screen w-full'>
+      <CommonHeader />
     </div>
   )
 }

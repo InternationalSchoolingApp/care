@@ -1,3 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.r-w {
+  width: 1140px;
+  margin: auto;
+}
+
+@media (max-width: 1160px) {
+  .r-w {
+    width: 90%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.g-t {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.neu {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 30px #d9d9d9, -20px -20px 30px #ffffff;
+}
+
+.e-card {
+  position: relative;
+  height: 330px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg, #af40ff, #5b42f3 60%, #00ddeb);
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 210px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.glu {
+  position: absolute;
+  filter: blur(10px);
+  border-radius: 50%;
+  background: linear-gradient(to top right, #9dbeff, #004d9c);
+  animation-name: glu;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes glu {
+  from {
+    transform: translate(8%, -8%) skew(0deg);
+  }
+
+  to {
+    transform: translate(-8%, 8%) skew(-8deg);
+  }
+}
+
+.bb {
+  backdrop-filter: blur(10px);
+}
