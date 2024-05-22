@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ImagePath from '@constants/ImagePath';
-import { ThemeChanger } from './ThemeChanger';
+// import { ThemeChanger } from './ThemeChanger';
 import Menu from './Menu';
 
 const CommonHeader = () => {
@@ -34,11 +34,11 @@ const CommonHeader = () => {
         <header className='w-full py-3 border-b bg-white/30 dark:bg-black/30 backdrop-blur sticky top-0 left-0 right-0 text-black dark:text-white bb'>
             <div className='r-w flex justify-between items-center gap-4'>
                 <Link href={"/"}>
-                    <Image src={ImagePath.LOGO} width={300} height={200} className='w-[60px] md:w-[140px] h-auto dark:invert' alt='care plus logo' />
+                    <Image src={ImagePath.LOGO} width={300} height={200} className='w-[80px] md:w-[140px] h-auto dark:invert' alt='care plus logo' />
                 </Link>
                 <div className='flex gap-2 items-center flex-row-reverse md:flex-row'>
                     <Menu menu={menu} items={menuItem} />
-                    <ThemeChanger />
+                    {/* <ThemeChanger /> */}
                 </div>
             </div>
             {
