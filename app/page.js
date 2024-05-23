@@ -19,7 +19,8 @@ const HomePage = () => {
       <div className=' r-w py-6 md:py-12 flex flex-col-reverse md:flex-row md:items-center md:gap-10 mb-4'>
         <div className='mb-4 md:mb-0 md:w-2/3 text-center md:text-left'>
           <h2 className='text-2xl g-t text-transparent m-auto md:mx-0 bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>International Schooling</h2>
-          <h1 className='text-6xl font-black md:text-7xl text-[#001FCF] mb-4 '>Care Plus</h1>
+          <Image width={400} height={400} src={ImagePath.LOGO} alt='banner img' className='h-auto !mb-4 m-auto md:mx-0 w-[180px] md:w-[240px] ' />
+          {/* <h1 className='text-6xl font-black md:text-7xl text-[#001FCF] mb-4 '>Care Plus</h1> */}
           <div className='flex mb-4 flex-col md:flex-row md:gap-3 md:items-center'>
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Accredited.</h4>
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Approved.</h4>
