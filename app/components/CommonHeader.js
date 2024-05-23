@@ -5,6 +5,7 @@ import Image from 'next/image';
 import ImagePath from '@constants/ImagePath';
 // import { ThemeChanger } from './ThemeChanger';
 import Menu from './Menu';
+import UrlPath from '@constants/UrlPath';
 
 const CommonHeader = () => {
 
@@ -18,15 +19,15 @@ const CommonHeader = () => {
     const menuItem = [
         {
             title: 'About us',
-            link: '/about',
-        },
-        {
-            title: 'Contact us',
-            link: '/contact',
+            link: UrlPath.ABOUT,
         },
         {
             title: 'Why us',
-            link: '/why',
+            link: UrlPath.WHY,
+        },
+        {
+            title: 'Contact us',
+            link: UrlPath.CONTACT,
         },
     ];
 
@@ -38,7 +39,6 @@ const CommonHeader = () => {
                 </Link>
                 <div className='flex gap-2 items-center flex-row-reverse md:flex-row'>
                     <Menu menu={menu} items={menuItem} />
-                    {/* <ThemeChanger /> */}
                 </div>
             </div>
             {
