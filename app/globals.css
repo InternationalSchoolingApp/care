@@ -164,3 +164,7 @@ html {
     transform: rotate(0deg);
   }
 }
+
+body {
+  background-color: #f7fbff;
+}

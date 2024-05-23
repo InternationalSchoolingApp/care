@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <div className=' w-full '>
       <GluEffect />
-      <div className='r-w py-6 md:flex md:items-center md:gap-10 mb-4'>
+      <div className='r-w py-6 flex flex-col-reverse md:flex-row md:items-center md:gap-10 mb-4'>
         <div className='mb-4 md:mb-0 md:w-2/3 text-center md:text-left'>
           <h2 className='text-2xl g-t text-transparent m-auto md:mx-0 bg-clip-text w-max bg-gradient-to-r py-2 from-red-600 to-[#001FCF] font-semibold md:text-5xl'>International Schooling</h2>
           <h1 className='text-6xl font-black md:text-7xl text-[#001FCF] mb-4 '>Care Plus</h1>
@@ -26,8 +26,8 @@ const HomePage = () => {
           <p className='mb-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati iste recusandae ducimus suscipit! Omnis mollitia officiis tempora porro maxime nam neque eligendi explicabo assumenda, quos deleniti ex incidunt vel.</p>
           <button className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</button>
         </div>
-        <div>
-          <Image width={400} height={400} src={ImagePath.MAIN_BANNER} alt='banner img' />
+        <div className='mb-4 md:mb-0'>
+          <Image width={400} height={400} src={ImagePath.MAIN_BANNER} alt='banner img' className='h-auto m-auto md:mx-0 w-2/3 md:w-full' />
         </div>
       </div>
       <div className='r-w py-6 md:py-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-5 rounded-xl glass bg-red-50 !mb-4'>

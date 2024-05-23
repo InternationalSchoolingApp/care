@@ -32,7 +32,7 @@ const CommonHeader = () => {
     ];
 
     return (
-        <header className='w-full py-3 border-b  backdrop-blur sticky top-0 left-0 right-0 text-black bb'>
+        <header className='w-full py-3 border-b sticky top-0 left-0 right-0 text-black bg-[#F7FBFF] shadow-xl '>
             <div className='r-w flex justify-between items-center gap-4'>
                 <Link href={"/"}>
                     <Image src={ImagePath.LOGO} width={300} height={200} className='w-[80px] md:w-[140px] h-auto ' alt='care plus logo' />
