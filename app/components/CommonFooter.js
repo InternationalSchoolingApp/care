@@ -10,6 +10,7 @@ const CommonFooter = () => {
         <div className='w-full border-t bg-[#F7FBFF]'>
             <div className='r-w grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 py-8 md:justify-between'>
                 <div >
+                    <Image width={200} height={100} src={ImagePath.IS_LOGO} className='h-auto w-2/3 md:w-full mb-4' alt='logo-footer' />
                     <Image width={200} height={100} src={ImagePath.LOGO} className='h-auto mb-4' alt='logo-footer' />
                     <p className='mb-4'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
