@@ -5,8 +5,8 @@ import React from "react";
 const WhyUs = () => {
   return (
     <div className="w-full ">
-      <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
-        <div className="md:w-2/3 mb-4 md:mb-0 ">
+      <div className="r-w flex flex-col-reverse md:flex-row md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
+        <div className="md:w-2/3 !mb-4 md:mb-0 ">
           <h1 className="g-t mb-4 font-extrabold text-3xl md:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">
             CHANGING LIVES FOR <br />
             THE BEST
@@ -28,7 +28,7 @@ const WhyUs = () => {
             src={ImagePath.HERO_IMG}
             width={800}
             height={800}
-            className="h-auto w-[200px] md:w-[400px] m-auto"
+            className="h-auto w-2/3 mb-8 md:mb-0 md:w-[400px] m-auto  "
             alt=""
           />
         </div>
