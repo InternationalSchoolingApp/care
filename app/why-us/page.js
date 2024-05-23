@@ -33,9 +33,9 @@ const WhyUs = () => {
           />
         </div>
       </div>
-      <div className="r-w py-8 px-8 bg-gradient-to-r from-[#001FCF] to-[#007EFF] mb-4 rounded-2xl">
+      <div className="r-w text-center py-8 px-8 bg-gradient-to-r from-[#001FCF] to-[#007EFF] mb-4 rounded-2xl">
         <h2 className="text-white text-2xl font-bold mb-2">We Understand</h2>
-        <p className="text-white text-justify">
+        <p className="text-white md:text-justify">
           Each child is physically, emotionally and mentally distinct. Expecting
           every child to fit in the same mold is similar to asking everyone to
           wear the same- sized shoe. Similarly, expecting every child to fit in
