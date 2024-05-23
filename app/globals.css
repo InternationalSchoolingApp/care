@@ -113,3 +113,54 @@ html {
 .bb {
   backdrop-filter: blur(10px);
 }
+
+.wave-e-1 {
+  border-radius: 50% 60% 50% 60%;
+  animation-name: gluwave;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.wave-e-2 {
+  border-radius: 30% 70% 30% 70%;
+  animation-name: gluwave;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.wave-e-3 {
+  border-radius: 40% 80% 40% 80%;
+  animation-name: gluwave;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.wave-e-4 {
+  border-radius: 45% 55% 45% 55%;
+  animation-name: gluwave;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.wave-e-5 {
+  border-radius: 60% 30% 60% 30%;
+  animation-name: gluwave;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes gluwave {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

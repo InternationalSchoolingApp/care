@@ -7,7 +7,7 @@ import Social from './Social'
 
 const CommonFooter = () => {
     return (
-        <div className='w-full border-t'>
+        <div className='w-full border-t bg-white'>
             <div className='r-w grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 py-8 md:justify-between'>
                 <div >
                     <Image width={200} height={100} src={ImagePath.LOGO} className='h-auto mb-4' alt='logo-footer' />
@@ -22,7 +22,6 @@ const CommonFooter = () => {
                         <li><Link href={UrlPath.ABOUT} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>About us</Link></li>
                         <li><Link href={UrlPath.CONTACT} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Contact us</Link></li>
                         <li><Link href={UrlPath.WHY} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Why us</Link></li>
-
                     </ul>
                 </div>
                 <div >
