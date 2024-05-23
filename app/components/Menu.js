@@ -3,8 +3,8 @@ import React from "react";
 
 const Menu = ({ menu, items }) => {
   return (
-    <div className="w-full flex flex-row-reverse md:flex-row gap-2 md:gap-12 items-center">
-      <div className="hidden  md:flex gap-5 items-center font-light">
+    <div className="w-full flex flex-row-reverse lg:flex-row gap-2 lg:gap-12 items-center">
+      <div className="hidden  lg:flex gap-5 items-center font-light">
         {items.map((item, index) => {
           return (
             <Link key={index} className="hover:text-blue-500" href={item.link}>
@@ -13,7 +13,7 @@ const Menu = ({ menu, items }) => {
           );
         })}
       </div>
-      <label className="swap swap-rotate btn btn-square  p-2  md:hidden ">
+      <label className="swap swap-rotate btn btn-square  p-2  lg:hidden ">
         <input
           onClick={() => {
             menu();

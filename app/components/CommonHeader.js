@@ -39,10 +39,10 @@ const CommonHeader = () => {
       <div className="r-w flex justify-between items-center gap-4">
         <Link href={"/"}>
           <Image
-            src={ImagePath.LOGO}
+            src={ImagePath.IS_LOGO}
             width={300}
             height={200}
-            className="w-[80px] md:w-[140px] h-auto "
+            className="w-[170px] md:w-[300px] h-auto "
             alt="care plus logo"
           />
         </Link>
@@ -51,7 +51,7 @@ const CommonHeader = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="flex flex-col md:hidden w-full rounded px-2 py-6  ">
+        <div className="flex flex-col lg:hidden w-full rounded px-2 py-6  ">
           {menuItem.map((item, index) => {
             return (
               <Link
