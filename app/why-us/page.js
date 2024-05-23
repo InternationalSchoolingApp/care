@@ -58,20 +58,20 @@ const WhyUs = () => {
         </p>
       </div>
       <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
-        <div>
+        <div className="mb-4 md:mb-0">
           <Image
             src={ImagePath.WHY_IS_IMG_2}
             width={800}
             height={800}
-            className="h-auto w-[200px] md:w-[400px] m-auto"
+            className="h-auto w-2/3 m-auto md:w-[400px]"
             alt=""
           />
         </div>
         <div className="md:w-2/3 mb-4 md:mb-0 ">
-          <h2 className="text-2xl font-bold mb-2 text-gray-800">
+          <h2 className=" md:text-2xl font-bold mb-2 text-gray-800">
             Most Affordable Accredited Online School
           </h2>
-          <p className="text-gray-800 md:text-justify ">
+          <p className="text-gray-800 md:text-justify text-sm">
             Through our unwavering commitment to make education accessible and
             affordable to every student across the globe, we aim to remove the
             barriers that hinder so many students from realizing their full

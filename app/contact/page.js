@@ -144,7 +144,7 @@ const Contact = () => {
 
       <div className="r-w bg-gradient-to-r from-[#007EFF] to-[#1F00E1] mx-auto rounded-2xl py-10 !my-10">
         <div className="bg-white w-max mx-auto rounded-xl">
-          <h3 className="text-center bg-clip-text text-transparent bg-gradient-to-r from-[#007EFF] to-[#1F00E1] md:text-2xl text-xl font-semibold mb-10 py-1 px-4">
+          <h3 className="text-center bg-clip-text text-transparent g-t bg-gradient-to-r from-[#007EFF] to-[#1F00E1] md:text-2xl text-xl font-semibold mb-10 py-1 px-4">
             Addresses
           </h3>
         </div>

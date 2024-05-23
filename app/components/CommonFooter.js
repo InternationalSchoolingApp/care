@@ -19,7 +19,7 @@ const CommonFooter = () => {
                 <div className=''>
                     <h3 className='text-xl mb-4'>Quick Links</h3>
                     <ul>
-                        <li><Link href={UrlPath.ABOUT} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>About us</Link></li>
+                        {/* <li><Link href={UrlPath.ABOUT} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>About us</Link></li> */}
                         <li><Link href={UrlPath.CONTACT} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Contact us</Link></li>
                         <li><Link href={UrlPath.WHY} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Why us</Link></li>
                     </ul>
