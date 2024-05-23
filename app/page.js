@@ -93,6 +93,10 @@ const HomePage = () => {
 
       <div className='r-w py-6 mb-4'>
         <h2 className='text-lg md:text-2xl mb-4 text-center font-bold'>HEAR FROM OUR HAPPY PARENTS!</h2>
+        <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-5 w-max m-auto !mb-4'>
+          <Image src={'/google_rating_black.webp'} width={300} height={300} alt='google-rating' className='h-auto' />
+          <Image src={'/trustpilot_rating_black.webp'} width={300} height={300} alt='tp-rating' className='h-auto' />
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className='rounded-xl py-6 px-4 bg-gray-100 border'>
             <h3 className='text-blue-800 mb-2 font-semibold'>Riyad Bahloul (Grade 08 Parent)</h3>
