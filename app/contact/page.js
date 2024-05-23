@@ -8,9 +8,9 @@ const Contact = () => {
   return (
     <>
       <GluEffect />
-      <div className="r-w flex flex-col md:flex-row justify-center items-center pt-10 gap-10">
+      <div className="r-w flex flex-col lg:flex-row justify-center items-center pt-10 gap-10">
         <div className="text-[#5D5D5D] w-3/4">
-          <h1 className="text-2xl md:text-6xl font-medium md:text-left text-center mb-4">
+          <h1 className="text-2xl lg:text-6xl font-medium lg:text-left text-center mb-4">
             CONTACT US
           </h1>
         </div>
@@ -31,8 +31,8 @@ const Contact = () => {
               Enrollment & Support
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="w-full border-[#5D5D5D] md:border-r border-b md:border-b-0 md:py-7 py-10 mb-5 flex justify-center flex-col items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
+              <div className="w-full border-[#5D5D5D] lg:border-r border-b lg:border-b-0 lg:py-7 py-10 mb-5 flex justify-center flex-col items-center">
                 <div className="flex gap-4 mb-3">
                   <svg
                     width="30"
@@ -82,7 +82,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col items-start">
                   <Link
-                    className="hover:text-[#007AFE] duration-150 text-center md:text-left"
+                    className="hover:text-[#007AFE] duration-150 text-center lg:text-left"
                     href={"https://wa.me/+17273902419"}
                     target="_blank"
                   >
@@ -91,7 +91,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="w-full flex justify-center flex-col items-center md:py-5 py-10">
+              <div className="w-full flex justify-center flex-col items-center lg:py-5 py-10">
                 <div className="flex gap-4 mb-2">
                   <svg
                     width="28"
@@ -146,12 +146,12 @@ const Contact = () => {
 
       <div className="r-w bg-gradient-to-r from-[#007EFF] to-[#1F00E1] mx-auto rounded-2xl py-10 !my-10">
         <div className="bg-white w-max mx-auto rounded-xl">
-          <h3 className="text-center bg-clip-text text-transparent g-t bg-gradient-to-r from-[#007EFF] to-[#1F00E1] md:text-2xl text-xl font-semibold mb-10 py-1 px-4">
+          <h3 className="text-center bg-clip-text text-transparent g-t bg-gradient-to-r from-[#007EFF] to-[#1F00E1] lg:text-2xl text-xl font-semibold mb-10 py-1 px-4">
             Addresses
           </h3>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-14 px-16">
-          <div className="w-full border-b md:border-b-0 md:border-r border-r-0 pb-5 md:pb-0 border-white md:ml-14 ml-0">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-14 px-16">
+          <div className="w-full border-b lg:border-b-0 lg:border-r border-r-0 pb-5 lg:pb-0 border-white lg:ml-14 ml-0">
             <div className="text-white mb-5 flex flex-col justify-center">
               <div className="flex items-center gap-3 mb-2">
                 <svg
