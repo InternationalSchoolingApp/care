@@ -1,3 +1,4 @@
+import GluEffect from "@components/GluEffect";
 import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,6 +7,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
+      <GluEffect />
       <div className="r-w flex flex-col md:flex-row justify-center items-center pt-10 gap-10">
         <div className="text-[#5D5D5D] w-3/4">
           <h1 className="text-2xl md:text-6xl font-medium md:text-left text-center mb-4">
@@ -22,8 +24,8 @@ const Contact = () => {
         />
       </div>
 
-      <div className="r-w !mt-10">
-        <div className="card shadow-xl border border-gray-300 rounded-2xl w-full">
+      <div className="r-w !mt-10  shadow backdrop-blur border rounded-2xl">
+        <div className="card  w-full">
           <div className="card-body">
             <h2 className="card-title justify-center bg-gradient-to-r from-[#007EFF] to-[#1F00E1] text-white w-max px-5 py-2 rounded-2xl mb-5 mx-auto">
               Enrollment & Support

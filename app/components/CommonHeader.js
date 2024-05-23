@@ -22,6 +22,10 @@ const CommonHeader = () => {
         //     link: UrlPath.ABOUT,
         // },
         {
+            title: 'Extra',
+            link: UrlPath.EXTRA,
+        },
+        {
             title: 'Why us',
             link: UrlPath.WHY,
         },
