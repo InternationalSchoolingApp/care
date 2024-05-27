@@ -3,5 +3,6 @@ const UrlPath = {
     CONTACT: '/contact',
     WHY: '/why-us',
     EXTRA: '/about-care-plus',
+    HOME: '/'
 }
 export default UrlPath;

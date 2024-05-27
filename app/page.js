@@ -65,7 +65,7 @@ const HomePage = () => {
         <p className='mb-2 text-sm text-justify'>International Schooling Care+ is an initiative to provide special education support to students with different learning needs. Established with the aim to create smiles for students with accessible and excellent quality schooling, we tailor learning for each child to make them the best version of themselves. Our special educators work closely with students and parents to create custom learning plans for each student to support them not just academically, but in personal life as well.</p>
         <p className='mb-2 text-sm text-justify'>At International Schooling, students do not follow the curriculum; rather, the curriculum is designed to follow the students. Our teachers, administrators, management and counselors work round the clock to create an encouraging learning environment for all our students.</p>
       </div>
-      <div className='r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-justify border-b '>
+      {/* <div className='r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-justify border-b '>
         <Image width={200} height={200} src={'/happy-girl-sitting.png'} alt='first-img' className='h-auto rounded-xl w-2/3 md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0' />
         <div className='w-full'>
           <h2 className='text-sm md:text-lg font-semibold mb-2'>ADHD - Attention Deficit Hyperactivity Disorders</h2>
@@ -85,11 +85,11 @@ const HomePage = () => {
           <h2 className='text-sm md:text-lg font-semibold mb-2'>Learning Disabilities (Dyscalculia, Dysgraphia, Dyslexia)</h2>
           <p>Has reading and writing always been difficult for your child? Is your child’s homework full of mistakes encircled in red by the teacher? Is math your child’s greatest enemy? No matter how hard they try, they are never able to get their studies right! Learning disabilities can make it difficult for the child to think, speak, solve mathematical equations, write or read. To accommodate the needs of students facing such difficulties, International Schooling offers interactive and engaging learning plans that are customized to suit the distinctive needs of every student. The courses are full of immersive content that is taught through flashcards, colorful placards and videos that significantly enhance the understanding of students. Flexible deadlines and tailor-made curriculum enable our students with learning disabilities to learn at their own speed, which helps them build the necessary skills, step- by- step.</p>
         </div>
-      </div>
+      </div> */}
 
-      <div className='py-6 text-sm md:py-12 px-4 !mb-4 r-w md:px-12 rounded-xl bg-[#F7FBFF] shadow border'>
+      {/* <div className='py-6 text-sm md:py-12 px-4 !mb-4 r-w md:px-12 rounded-xl bg-[#F7FBFF] shadow border'>
         <p>Education is necessary for the growth and development of every individual. A structured, comfortable and encouraging learning environment is necessary for students with specific learning needs. School plays a vital role in the development of your child. A right schooling atmosphere not only nurtures academic growth but also prepares them to handle every situation effectively. At International Schooling, our goal is to develop an inclusive learning space for all our students and offer them the opportunity to reach their full potential and become active contributors in the development of their nation. We strongly believe every child has the potential to be a changemaker when given the right resources, opportunities and teaching that suits their needs.  </p>
-      </div>
+      </div> */}
 
       <div className='r-w py-6 mb-4'>
         <h2 className='text-lg md:text-2xl mb-4 text-center font-bold'>HEAR FROM OUR HAPPY PARENTS!</h2>

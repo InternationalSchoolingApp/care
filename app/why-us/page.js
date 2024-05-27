@@ -9,20 +9,17 @@ const WhyUs = () => {
       <GluEffect />
       <div className="r-w flex flex-col-reverse md:flex-row md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
         <div className="md:w-2/3 !mb-4 md:mb-0 ">
-          <h1 className="g-t mb-4 font-extrabold text-3xl md:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">
-            CHANGING LIVES FOR <br />
+          <h1 className="g-t mb-4 font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">
+            CHANGING LIVES FOR
             THE BEST
           </h1>
           <p className="mb-4 text-xl font-medium text-gray-800 md:text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Each Child Is Unique And Deserves An Education As Per Their Own Needs.
           </p>
           <p className="text-gray-800 md:text-justify ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            In the rollercoaster of life, countless individuals find themselves derailed or lost by the obstacles of inaccessible and unaffordable education. This harsh reality not only crushes their hope for a better life but also inflicts deep wounds upon the dreams and aspirations of those seeking knowledge and opportunity.
+            <br />
+            More often than not, traditional education systems fail to find ways to support students with different learning needs and speeds and create an environment full of restrictions. Especially for physically challenged students and students with special needs, it becomes extremely difficult to learn and respond in a classroom of 30 students. They need extra attention and guidance to match pace with their peers and fulfill their learning needs.
           </p>
         </div>
         <div>
@@ -38,25 +35,10 @@ const WhyUs = () => {
       <div className="r-w text-center md:text-left py-8 px-8 bg-gradient-to-r from-[#001FCF] to-[#007EFF] mb-4 rounded-2xl">
         <h2 className="text-white text-2xl font-bold mb-2">We Understand</h2>
         <p className="text-white md:text-justify text-sm">
-          Each child is physically, emotionally and mentally distinct. Expecting
-          every child to fit in the same mold is similar to asking everyone to
-          wear the same- sized shoe. Similarly, expecting every child to fit in
-          the same learning environment defeats the purpose of learning as all
-          of their energy is absorbed in trying to fit in. Education loses its
-          essence when children who need extra support are forced to conform to
-          standards that do not suit them. Therefore, we firmly believe every
-          child deserves a learning space that does not hinder their potential
-          and provides ample room for growth. <br />
-          We understand the challenges people around the globe face when it
-          comes to education, limited by their personal, physical, or social
-          constraints. Therefore, at International Schooling, we create a place
-          for every student. When we say every student, it also includes those
-          limited and restricted by various challenges and disabilities. We
-          strive to create smiles on every student’s face, and we believe that
-          we are capable and fortunate to be able to bring about a positive
-          impact. We do not ask our students to adapt to the school environment;
-          rather, we create an environment that adapts to every student’s unique
-          requirements.
+          As parents we want our children to have the best education. However children with special needs are left behind by their peers and are unable to reach their full potential because of the rules and regulations. Thousands of children worldwide do not have access to quality education because of their special needs and learning differences.
+        </p>
+        <p className="text-white md:text-justify text-sm">
+          This is why International Schooling is the best choice for your child. We are home to thousands of children from all around the world. We value and appreciate every student and are committed to providing them with unconditional support. Our curriculum is tailor-made for each child keeping in mind their strengths, uniqueness and limitations. We do not expect our students to conform to strict curriculum that will hamper their skills. Instead we give them the resources and opportunity to explore their skills and work on their strengths. We support them in becoming the leaders of tomorrow. Our internationally and nationally trained teachers will take care of academic as well as emotional needs of your child. They provide unconditional positive regard to all our students. They cater to the special needs of your child to ensure great academic as well as personal growth.
         </p>
       </div>
       <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">

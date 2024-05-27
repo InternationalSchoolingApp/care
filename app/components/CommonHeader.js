@@ -15,16 +15,16 @@ const CommonHeader = () => {
   };
 
   const menuItem = [
-    // {
-    //     title: 'About us',
-    //     link: UrlPath.ABOUT,
-    // },
+    {
+      title: 'Home',
+      link: UrlPath.HOME,
+    },
     {
       title: "About Care+",
       link: UrlPath.EXTRA,
     },
     {
-      title: "Why us",
+      title: "Why IS",
       link: UrlPath.WHY,
     },
     {
