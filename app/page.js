@@ -26,7 +26,7 @@ const HomePage = () => {
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Approved.</h4>
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Recognized.</h4>
           </div>
-          <p className='mb-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati iste recusandae ducimus suscipit! Omnis mollitia officiis tempora porro maxime nam neque eligendi explicabo assumenda, quos deleniti ex incidunt vel.</p>
+          <p className='mb-4 text-justify'>International Schooling is an American Online School accredited by Cognia, USA, approved by College Board, USA, and powered by Discovery Education. We offer American curriculum for grades KG–12. <br />International Schooling Care+ is an initiative to offer special school education support to students with different learning needs. With over 80+ Special Educators, International Schooling celebrates the unique needs of 500+ students since 2017.</p>
           <button className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</button>
         </div>
         <div className='mb-4 md:mb-0'>
@@ -35,16 +35,16 @@ const HomePage = () => {
       </div>
       <div className='r-w py-6 md:py-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-5 rounded-xl shadow border bg-red-50 !mb-4'>
         <div className='text-center px-2'>
-          <h2 className='text-2xl mb-2s g-t text-transparent m-auto bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>KG-12</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+          <h2 className='text-4xl mb-2s g-t text-transparent m-auto bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>KG-12</h2>
+          <p>American Curriculum</p>
         </div>
         <div className='text-center px-2'>
-          <h2 className='text-2xl mb-2s g-t text-transparent m-auto bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>KG-12</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+          <h2 className='text-4xl mb-2s g-t text-transparent m-auto bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>80+</h2>
+          <p>Special Educators</p>
         </div>
         <div className='text-center px-2'>
-          <h2 className='text-2xl mb-2s g-t text-transparent m-auto bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>KG-12</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+          <h2 className='text-4xl mb-2s g-t text-transparent m-auto bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>500+</h2>
+          <p>Students Across 50+ Countries</p>
         </div>
       </div>
 
@@ -52,7 +52,7 @@ const HomePage = () => {
         <div className='w-2/3 m-auto md:w-1/3 mb-4 md:mb-0'>
           <Image src={ImagePath.IMAGE_GIRL} width={300} height={300} className='h-auto w-full' />
         </div>
-        <div className='md:w-2/3 text-center md:text-left'>
+        <div className='md:w-2/3 text-center md:text-justify'>
           <h2 className='text-3xl font-bold text-gray-700 mb-4'>Special Education Support </h2>
           <p className='mb-2 text-sm'>School education is the most basic need of every individual. As educators, we firmly believe that no child, under any circumstance, should be deprived of it. We also understand that every student is different and has unique learning needs. Expecting every child to learn using the same methods not only hampers their growth but also limits their individual potential. As every student is special in their own way, they deserve an education that celebrates and recognizes their differences.</p>
           <p className='mb-2 text-sm'>Unlike the rigid traditional schools where children are forced to follow a strict line year after year, we, at International Schooling, celebrate diversity and welcome every student with open arms. Whether your child is a fast learner or a slow learner, has ADHD, autism, or learning disabilities, our commitment to accessibility, affordability, and inclusivity, is breaking barriers that stand between your child’s unique needs and their dreams.</p>
@@ -62,29 +62,28 @@ const HomePage = () => {
 
       <div className='r-w py-6 px-4 md:px-12 md:py-12 rounded-xl bg-gradient-to-r from-[#001FCF] to-blue-500 !mb-4 text-white text-center md:text-left'>
         <h2 className='md:text-3xl font-bold mb-2'>What is International Schooling Care+</h2>
-        <p className='mb-2 text-sm'>School education is the most basic need of every individual. As educators, we firmly believe that no child, under any circumstance, should be deprived of it. We also understand that every student is different and has unique learning needs. Expecting every child to learn using the same methods not only hampers their growth but also limits their individual potential. As every student is special in their own way, they deserve an education that celebrates and recognizes their differences.</p>
-        <p className='mb-2 text-sm'>Unlike the rigid traditional schools where children are forced to follow a strict line year after year, we, at International Schooling, celebrate diversity and welcome every student with open arms. Whether your child is a fast learner or a slow learner, has ADHD, autism, or learning disabilities, our commitment to accessibility, affordability, and inclusivity, is breaking barriers that stand between your child’s unique needs and their dreams.</p>
-        <p className='mb-2 text-sm'>Building on our school’s philosophy, ‘each child is unique and deserves an education as per their needs, and every decision we make revolves around the student’, the leadership at International Schooling customized a program; International Schooling Care+, for all our special students.</p>
+        <p className='mb-2 text-sm text-justify'>International Schooling Care+ is an initiative to provide special education support to students with different learning needs. Established with the aim to create smiles for students with accessible and excellent quality schooling, we tailor learning for each child to make them the best version of themselves. Our special educators work closely with students and parents to create custom learning plans for each student to support them not just academically, but in personal life as well.</p>
+        <p className='mb-2 text-sm text-justify'>At International Schooling, students do not follow the curriculum; rather, the curriculum is designed to follow the students. Our teachers, administrators, management and counselors work round the clock to create an encouraging learning environment for all our students.</p>
       </div>
-      <div className='r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-left border-b '>
+      <div className='r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-justify border-b '>
         <Image width={200} height={200} src={'/happy-girl-sitting.png'} alt='first-img' className='h-auto rounded-xl w-2/3 md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0' />
         <div className='w-full'>
           <h2 className='text-sm md:text-lg font-semibold mb-2'>ADHD - Attention Deficit Hyperactivity Disorders</h2>
-          <p>Is your son unable to sit in one place for too long? Does the teacher always complain about your daughter not paying attention in class? Does your child feel out of place with other students in the classroom? If these situations seem familiar for your child, they are not alone. It is what they have and not who they are. Attention-deficit hyperactivity disorder affects their development, which makes them struggle at school because of lack of attention and increased impulsivity. In a class of 30–50 students</p>
+          <p>Is your son unable to sit in one place for too long? Does the teacher always complain about your daughter not paying attention in class? Does your child feel out of place with other students in the classroom? If these situations seem familiar for your child, they are not alone. It is what they have and not who they are. Attention-Deficit Hyperactivity Disorder affects their development, which makes them struggle at school because of lack of attention and increased impulsivity. In a class of 30–50 students, your child is not able to pay attention, has problems with listening, and scoring well in a strict traditional schooling system. International Schooling, with its One-to-One learning, offers the much-needed flexibility and customization essential for students who have ADHD. Our internationally trained and certified teachers, with vast experience and expertise in their respective fields, create lesson plans and study hours that suit our students the best. They focus on the strengths of every individual and provide support in areas where they struggle. Personalized attention and tailored curriculum cater to the unique needs of our students who have ADHD. They also create structured learning environments that enable them to reach their full potential, foster independence, and help them thrive to the best of their capabilities. Our educational programs also employ behavioral strategies to manage impulsivity and hyperactivity, creating a positive and supportive atmosphere for learning.</p>
         </div>
       </div>
       <div className='r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-left border-b'>
         <Image width={200} height={200} src={'/happy-boy-sitting.png'} alt='first-img' className='h-auto rounded-xl w-2/3 md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0' />
         <div className='w-full'>
           <h2 className='text-sm md:text-lg font-semibold mb-2'>Autism Spectrum Disorder</h2>
-          <p>For some children, navigating social aspects of life can be difficult. Making friends, understanding social norms and regulations can be confusing for them. Difficulties with communication can make it tough for them to express their needs, wants, answer or ask questions in a classroom setting. They can have issues with adjustment making it difficult for them to fit in with their classmates. Children with autism have different views about the world, the skills they possess have the power to create magic if given the proper atmosphere</p>
+          <p>For some children, navigating social aspects of life can be difficult. Making friends, understanding social norms and regulations can be confusing for them. Difficulties with communication can make it tough for them to express their needs, wants, answer or ask questions in a classroom setting. They can have issues with adjustment making it difficult for them to fit in with their classmates. Children with autism have different views about the world, the skills they possess have the power to create magic if given the proper atmosphere. International Schooling is committed to making the dreams of thousands of students who have Autism a reality. It offers individualized support and educational programs that incorporate social skills training to help them communicate, inculcate appropriate social behavior and teaches them to navigate social situations effectively. Our teachers focus on individual interests, strengths and skills and develop lesson plans that improve the efficiency of communication between them and the students. It enhances the learning, understanding and productivity of every student. We have over 500+ courses to cater to the diverse interests of our students.</p>
         </div>
       </div>
       <div className='r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-left !mb-4'>
         <Image width={200} height={200} src={'/happy-boy-sitting-front.png'} alt='first-img' className='h-auto rounded-xl w-2/3 md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0' />
         <div className='w-full'>
           <h2 className='text-sm md:text-lg font-semibold mb-2'>Learning Disabilities (Dyscalculia, Dysgraphia, Dyslexia)</h2>
-          <p>Has reading and writing always been difficult for your child? Is your child’s homework full of mistakes encircled in red by the teacher? Is math your child’s greatest enemy? No matter how hard they try, they are never able to get their studies right! Learning disabilities can make it difficult for the child to think, speak, solve mathematical equations, write or read. To accommodate the needs of students facing such difficulties, International Schooling offers interactive and engaging learning plans that are customized to suit the distinctive needs of every student. </p>
+          <p>Has reading and writing always been difficult for your child? Is your child’s homework full of mistakes encircled in red by the teacher? Is math your child’s greatest enemy? No matter how hard they try, they are never able to get their studies right! Learning disabilities can make it difficult for the child to think, speak, solve mathematical equations, write or read. To accommodate the needs of students facing such difficulties, International Schooling offers interactive and engaging learning plans that are customized to suit the distinctive needs of every student. The courses are full of immersive content that is taught through flashcards, colorful placards and videos that significantly enhance the understanding of students. Flexible deadlines and tailor-made curriculum enable our students with learning disabilities to learn at their own speed, which helps them build the necessary skills, step- by- step.</p>
         </div>
       </div>
 
@@ -116,13 +115,13 @@ const HomePage = () => {
       <div className='py-6 bg-gradient-to-r from-red-800 to-blue-800 mb-4'>
         <ReviewsParent />
       </div>
-      <div className="e-card border playing r-w py-6 px-2 md:px-4 flex flex-col !mb-4 justify-center items-center bg-blue-800 ">
+      <div className="e-card border playing r-w py-4 px-2 md:px-4 flex flex-col !mb-4 justify-center items-center bg-blue-800 ">
         <div className="wave"></div>
         <div className="wave"></div>
         <div className="wave"></div>
-        <h2 className='text-center text-lg mb-2 md:text-3xl font-bold z-50 text-white  '>MAKE THE RIGHT CHOICE FOR YOUR CHILD</h2>
-        <h3 className='text-center text-xl mb-4 md:text-4xl font-bold z-50 text-white  '>FULFILL YOUR CHILD'S DREAMS</h3>
-        <Link href={"#titleOfForm"} className='btn z-50'>Connect Now</Link>
+        <h2 className='text-center text-lg mb-2 md:text-3xl font-bold z-50 text-white'>MAKE THE RIGHT CHOICE FOR YOUR CHILD</h2>
+        {/* <h3 className='text-center text-xl mb-4 md:text-4xl font-bold z-50 text-white'>FULFILL YOUR CHILD'S DREAMS</h3> */}
+        <Link href={"#titleOfForm"} className='btn z-50'>Talk to us</Link>
       </div>
     </div>
   )

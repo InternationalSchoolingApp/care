@@ -2,6 +2,6 @@ const UrlPath = {
     ABOUT: '/about-us',
     CONTACT: '/contact',
     WHY: '/why-us',
-    EXTRA: '/extra',
+    EXTRA: '/about-care-plus',
 }
 export default UrlPath;

@@ -12,8 +12,8 @@ const CommonFooter = () => {
                 <div >
                     <Image width={200} height={100} src={ImagePath.IS_LOGO} className='h-auto w-2/3 md:w-full mb-4' alt='logo-footer' />
                     <Image width={200} height={100} src={ImagePath.LOGO} className='h-auto mb-4' alt='logo-footer' />
-                    <p className='mb-4'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p className='mb-4 text-justify'>
+                        International Schooling Care+ is an initiative to offer special school education support to students with different learning needs.
                     </p>
                     <Social />
                 </div>
