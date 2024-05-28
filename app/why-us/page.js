@@ -1,8 +1,13 @@
 import GluEffect from "@components/GluEffect";
-import PPCForm from "@components/PPCForm";
 import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
 import React from "react";
+
+
+export const metadata = {
+  title: "Why Choose International Schooling Care+ | Changing lives for the best",
+  description: "Find out why International Schooling Care+ is the best choice for children with special needs, we offer affordable education tailored to each child's unique needs",
+};
 
 const WhyUs = () => {
   return (
@@ -63,6 +68,22 @@ const WhyUs = () => {
             designed for them.
           </p>
         </div>
+      </div>
+      <div className="!mb-8 r-w">
+        <h2 className="mb-4 text-xl md:text-2xl font-black text-blue-600 text-center md:text-left">Our Key Features -</h2>
+        <ul className="list-disc space-y-2  text-justify">
+          <li>Our trained special educators are internationally and nationally certified to cater to every need of your child in the schooling environment. Their expertise with creating different learning plans and employing new methods of teaching will make learning easy and fun for your children.</li>
+          <li>Unlike any other school, International Schooling ensures that personalized attention is given to every student. Academic and emotional needs of our students are met by our special educators to ensure that they are able to flourish in their lives.</li>
+          <li>At International Schooling students are not expected to follow a strict curriculum that does not interest them or challenge them, instead the curriculum is tailor-made according to their requirements. The curriculum ensures that the students are able to maximize their strengths and work on their weaknesses.</li>
+          <li>We ensure that our students do not feel any pressure or burden while pursuing their schooling with us. Regular feedback is taken from the parents and the students for continuous improvement.</li>
+          <li>Our school values the unique talents of our special students. We create an atmosphere of positivity and support where the student can grow and experiment new things in order to understand where they shine. We offer our students with ample opportunities to showcase their talents and be the leaders of tomorrow.</li>
+          <li>Our team of administration works around the clock for our students and parents. We understand that all the needs of our students are important and we are here to offer unconditional support. </li>
+          <li>International Schooling offers its students immense flexibility which empowers them to be who they are. Our special educators are available day and night for our students. The classes can be scheduled according to your preferred time which ensures that your children are able to learn better and also engage in activities outside the school.</li>
+          <li>At International Schooling, student safety is of utmost importance. We ensure that our students thrive in a secure learning environment. Our special educators and administrators take proper care of our students' wellbeing.</li>
+          <li>Your child will have the opportunity to interact with students from different countries and understand different cultures. It helps them see the world with a new perspective. Every week the students engage in a Meet Your Classmates activity where they can discuss and share aspects about their culture. It is an activity that fosters bonding and harmony among the students.</li>
+          <li>We are proud to have a special team of counselors who offer our students with free personal and career counseling. Our counselors are trained to understand and empathize with our students</li>
+          <li>International schooling offers a wide range of courses that will prepare our students for the future.</li>
+        </ul>
       </div>
     </div>
   );

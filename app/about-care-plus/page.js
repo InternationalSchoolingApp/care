@@ -3,6 +3,12 @@ import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
 import React from "react";
 
+
+export const metadata = {
+  title: "About Care+ | International Schooling for Special Needs",
+  description: "Learn about Care+, our initiative dedicated to providing tailored education for children with special needs. Discover how we cherish each child's uniqueness and nurture their remarkable talents.",
+};
+
 const Extra = () => {
   return (
     <div className="w-full">

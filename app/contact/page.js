@@ -5,11 +5,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: "Contact International Schooling Care+ for Special Needs Education",
+  description: "Get in touch with International Schooling Care+ for inquiries, support, or to learn more about our special needs education programs.",
+};
+
 const Contact = () => {
   return (
     <>
       <GluEffect />
-      <div className="r-w flex flex-col lg:flex-row justify-center items-center pt-10 gap-10">
+      <div className="r-w flex flex-col lg:flex-row justify-center items-center pt-10 gap-10 !mb-8">
         <div className="text-[#5D5D5D] w-3/4">
           <h1 className="text-2xl lg:text-6xl font-medium lg:text-left text-center mb-4">
             CONTACT US
@@ -30,7 +35,7 @@ const Contact = () => {
 
       </div>
 
-      <div className="r-w !mt-10 !mb-4 shadow backdrop-blur border rounded-2xl">
+      {/* <div className="r-w !mt-10 !mb-4 shadow backdrop-blur border rounded-2xl">
         <div className="card  w-full">
           <div className="card-body">
             <h2 className="card-title justify-center bg-gradient-to-r from-[#007EFF] to-[#1F00E1] text-white w-max px-5 py-2 rounded-2xl mb-5 mx-auto">
@@ -141,7 +146,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
     </>

@@ -7,7 +7,7 @@ import Link from 'next/link';
 import React from 'react'
 
 export const metadata = {
-  title: "Online School for Special Needs - International Schooling Care+",
+  title: "School for Special Needs - International Schooling Care+",
   description: "Care+ provides special education for students with different needs. Our online program offers a safe, inclusive environment to help them reach their full potential",
 };
 
