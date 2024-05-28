@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="card  w-full">
           <div className="card-body">
             <h2 className="card-title justify-center bg-gradient-to-r from-[#007EFF] to-[#1F00E1] text-white w-max px-5 py-2 rounded-2xl mb-5 mx-auto">
-              Enrollment & Support
+              Enrollment
             </h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -131,10 +131,10 @@ const Contact = () => {
                 <div className="flex flex-col items-start">
                   <Link
                     className="hover:text-[#007AFE] duration-150"
-                    href={"mailto:support@internationalschooling.org"}
+                    href={"mailto:info@internationalschooling.org"}
                     target="_blank"
                   >
-                    support@internationalschooling.org
+                    info@internationalschooling.org
                   </Link>
                 </div>
               </div>
