@@ -1,4 +1,5 @@
 import GluEffect from "@components/GluEffect";
+import PPCForm from "@components/PPCForm";
 import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
 import React from "react";
@@ -42,14 +43,9 @@ const WhyUs = () => {
         </p>
       </div>
       <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
-        <div className="mb-4 md:mb-0">
-          <Image
-            src={ImagePath.WHY_IS_IMG_2}
-            width={800}
-            height={800}
-            className="h-auto w-2/3 m-auto md:w-[400px]"
-            alt=""
-          />
+        <div className="mb-6  text-left md:mb-0">
+          <h2 className="text-xl font-bold mb-4 text-center" id="formTitle">Fill the Form to know more</h2>
+          <PPCForm folderName={'care'} />
         </div>
         <div className="md:w-2/3 mb-4 md:mb-0 ">
           <h2 className=" md:text-2xl font-bold mb-2 text-gray-800">
