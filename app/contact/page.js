@@ -1,4 +1,5 @@
 import GluEffect from "@components/GluEffect";
+import PPCForm from "@components/PPCForm";
 import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,18 +14,23 @@ const Contact = () => {
           <h1 className="text-2xl lg:text-6xl font-medium lg:text-left text-center mb-4">
             CONTACT US
           </h1>
+          <Image
+            src={ImagePath.CONTACT_MAP}
+            className="h-auto"
+            width={500}
+            height={500}
+            priority
+            alt="map-contact-us"
+          />
         </div>
-        <Image
-          src={ImagePath.CONTACT_MAP}
-          className="w-full h-auto"
-          width={500}
-          height={500}
-          priority
-          alt="map-contact-us"
-        />
+        <div className="md:w-1/3">
+          <h2 className="text-xl font-bold mb-4 text-center" id="formTitle">Fill the Form to know more</h2>
+          <PPCForm folderName={'care'} />
+        </div>
+
       </div>
 
-      <div className="r-w !mt-10  shadow backdrop-blur border rounded-2xl">
+      <div className="r-w !mt-10 !mb-4 shadow backdrop-blur border rounded-2xl">
         <div className="card  w-full">
           <div className="card-body">
             <h2 className="card-title justify-center bg-gradient-to-r from-[#007EFF] to-[#1F00E1] text-white w-max px-5 py-2 rounded-2xl mb-5 mx-auto">
@@ -125,13 +131,6 @@ const Contact = () => {
                 <div className="flex flex-col items-start">
                   <Link
                     className="hover:text-[#007AFE] duration-150"
-                    href={"mailto:info@internationalschooling.org"}
-                    target="_blank"
-                  >
-                    info@internationalschooling.org
-                  </Link>
-                  <Link
-                    className="hover:text-[#007AFE] duration-150"
                     href={"mailto:support@internationalschooling.org"}
                     target="_blank"
                   >
@@ -144,88 +143,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="r-w bg-gradient-to-r from-[#007EFF] to-[#1F00E1] mx-auto rounded-2xl py-10 !my-10">
-        <div className="bg-white w-max mx-auto rounded-xl">
-          <h3 className="text-center bg-clip-text text-transparent g-t bg-gradient-to-r from-[#007EFF] to-[#1F00E1] lg:text-2xl text-xl font-semibold mb-10 py-1 px-4">
-            Addresses
-          </h3>
-        </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-14 px-16">
-          <div className="w-full border-b lg:border-b-0 lg:border-r border-r-0 pb-5 lg:pb-0 border-white lg:ml-14 ml-0">
-            <div className="text-white mb-5 flex flex-col justify-center">
-              <div className="flex items-center gap-3 mb-2">
-                <svg
-                  width="30"
-                  height="40"
-                  viewBox="0 0 30 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M15.363 38.3128L16.7972 36.6969C18.4245 34.8331 19.8882 33.0649 21.1906 31.383L22.2656 29.9647C26.7544 23.9167 29 19.1165 29 15.5687C29 7.9956 22.8952 1.85669 15.363 1.85669C7.83089 1.85669 1.72607 7.9956 1.72607 15.5687C1.72607 19.1165 3.97163 23.9167 8.46046 29.9647L9.53551 31.383C11.3934 33.7635 13.3372 36.0735 15.363 38.3128Z"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M15.363 21.1757C18.5012 21.1757 21.0451 18.6318 21.0451 15.4937C21.0451 12.3555 18.5012 9.81158 15.363 9.81158C12.2249 9.81158 9.68097 12.3555 9.68097 15.4937C9.68097 18.6318 12.2249 21.1757 15.363 21.1757Z"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                <h3 className="font-medium">SINGAPORE</h3>
-              </div>
-              <p className="">
-                111 SOMERSET ROAD, LEVEL 13,
-                <br />
-                TRIPLEONE SOMERSET, SINGAPORE - 238164
-              </p>
-            </div>
-          </div>
 
-          <div className="w-full">
-            <div className="text-white mb-5 flex flex-col justify-center items-start">
-              <div className="flex items-center gap-3 mb-2">
-                <svg
-                  width="30"
-                  height="40"
-                  viewBox="0 0 30 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M15.363 38.3128L16.7972 36.6969C18.4245 34.8331 19.8882 33.0649 21.1906 31.383L22.2656 29.9647C26.7544 23.9167 29 19.1165 29 15.5687C29 7.9956 22.8952 1.85669 15.363 1.85669C7.83089 1.85669 1.72607 7.9956 1.72607 15.5687C1.72607 19.1165 3.97163 23.9167 8.46046 29.9647L9.53551 31.383C11.3934 33.7635 13.3372 36.0735 15.363 38.3128Z"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M15.363 21.1757C18.5012 21.1757 21.0451 18.6318 21.0451 15.4937C21.0451 12.3555 18.5012 9.81158 15.363 9.81158C12.2249 9.81158 9.68097 12.3555 9.68097 15.4937C9.68097 18.6318 12.2249 21.1757 15.363 21.1757Z"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                <h3 className="font-medium">USA</h3>
-              </div>
-              <p className="">
-                3710 RAWLINS ST. 1412/SUITE 1420 DALLAS,
-                <br />
-                TEXAS 75219
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </>
   );
 };

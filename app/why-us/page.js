@@ -11,8 +11,7 @@ const WhyUs = () => {
       <div className="r-w flex flex-col-reverse md:flex-row md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
         <div className="md:w-2/3 !mb-4 md:mb-0 ">
           <h1 className="g-t mb-4 font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">
-            CHANGING LIVES FOR
-            THE BEST
+            CHANGING LIVES FOR THE BEST
           </h1>
           <p className="mb-4 text-xl font-medium text-gray-800 md:text-justify">
             Each Child Is Unique And Deserves An Education As Per Their Own Needs.
@@ -44,8 +43,8 @@ const WhyUs = () => {
       </div>
       <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
         <div className="mb-6  text-left md:mb-0">
-          <h2 className="text-xl font-bold mb-4 text-center" id="formTitle">Fill the Form to know more</h2>
-          <PPCForm folderName={'care'} />
+          <Image width={300} height={300} src={ImagePath.EXTRA_IMG} alt="why-us" className="h-auto" />
+
         </div>
         <div className="md:w-2/3 mb-4 md:mb-0 ">
           <h2 className=" md:text-2xl font-bold mb-2 text-gray-800">
