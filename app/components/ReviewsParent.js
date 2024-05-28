@@ -14,7 +14,7 @@ const ReviewsParent = () => {
                 <VideoPlayer thumb={ImagePath.PARENT_1_REVIEW} url={VIDEO_URL_PATH.PARENT_2} imgWidth={400} imgWidthClass='400px' />
                 <VideoPlayer thumb={ImagePath.PARENT_2_REVIEW} url={VIDEO_URL_PATH.PARENT_1} imgWidth={400} imgWidthClass='400px' />
             </div>
-            <Link href={'#titleOfForm'} className='btn rounded-full m-auto' >Enroll Now</Link>
+            <Link href={'/contact'} className='btn rounded-full m-auto' >Enroll Now</Link>
         </div>
     )
 }
