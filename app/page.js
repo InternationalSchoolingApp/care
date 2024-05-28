@@ -27,7 +27,7 @@ const HomePage = () => {
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Recognized.</h4>
           </div>
           <p className='mb-4 text-justify'>International Schooling is an American Online School accredited by Cognia, USA, approved by College Board, USA, and powered by Discovery Education. We offer American curriculum for grades KG–12. <br />International Schooling Care+ is an initiative to offer special school education support to students with different learning needs. With over 80+ Special Educators, International Schooling celebrates the unique needs of 500+ students since 2017.</p>
-          <button className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</button>
+          <Link href={'/contact'} className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</Link>
         </div>
         <div className='mb-4 md:mb-0'>
           <Image width={400} height={400} src={ImagePath.MAIN_BANNER} alt='banner img' className='h-auto m-auto md:mx-0 w-2/3 md:w-full' />
@@ -121,7 +121,7 @@ const HomePage = () => {
         <div className="wave"></div>
         <h2 className='text-center text-lg mb-2 md:text-3xl font-bold z-50 text-white'>MAKE THE RIGHT CHOICE FOR YOUR CHILD</h2>
         {/* <h3 className='text-center text-xl mb-4 md:text-4xl font-bold z-50 text-white'>FULFILL YOUR CHILD'S DREAMS</h3> */}
-        <Link href={"#titleOfForm"} className='btn z-50'>Talk to us</Link>
+        <Link href={"/contact"} className='btn z-50'>Talk to us</Link>
       </div>
     </div>
   )
