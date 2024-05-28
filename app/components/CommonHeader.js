@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ImagePath from "@constants/ImagePath";
-// import { ThemeChanger } from './ThemeChanger';
 import Menu from "./Menu";
 import UrlPath from "@constants/UrlPath";
+import GoogleTagManager from "./GoogleTagManager";
 
 const CommonHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,6 +64,7 @@ const CommonHeader = () => {
           })}
         </div>
       )}
+      <GoogleTagManager />
     </header>
   );
 };
