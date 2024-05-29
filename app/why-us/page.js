@@ -11,7 +11,7 @@ export const metadata = {
 
 const WhyUs = () => {
 
-  const faq = [
+  const faq1 = [
     {
       question: "How do your special educators create a supporting learning environment for children with special needs?",
       answer: "Our trained special educators are internationally and nationally certified to cater to every need of your child in the schooling environment. Their expertise with creating different learning plans and employing new methods of teaching will make learning easy and fun for your children."
@@ -32,6 +32,10 @@ const WhyUs = () => {
       question: "How does International Schooling support the unique talents of the students?",
       answer: "Our school values the unique talents of our special students. We create an atmosphere of positivity and support where the student can grow and experiment new things in order to understand where they shine. We offer our students with ample opportunities to showcase their talents and be the leaders of tomorrow."
     },
+
+  ]
+
+  const faq2 = [
     {
       question: "Can I contact International Schooling if my child requires support after normal hours?",
       answer: "Our team of administration works around the clock for our students and parents. We understand that all the needs of our students are important and we are here to offer unconditional support."
@@ -117,21 +121,39 @@ const WhyUs = () => {
       </div> */}
       <div className="!mb-8 r-w ">
         <h2 className="mb-4 text-xl md:text-2xl font-black text-blue-600 text-center md:text-left">Our Key Features -</h2>
-        <div className="grid gap-3">
-          {
-            faq.map((item, index) => {
-              return (
-                <div tabIndex={index} key={index} className="collapse text-white bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
-                  <div className="collapse-title text-lg font-medium">
-                    {item.question}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div>
+            {
+              faq1.map((item, index) => {
+                return (
+                  <div tabIndex={index} key={index} className="collapse text-white mb-2 bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
+                    <div className="collapse-title text-lg font-medium">
+                      {item.question}
+                    </div>
+                    <div className="collapse-content text-sm">
+                      <p>{item.answer}</p>
+                    </div>
                   </div>
-                  <div className="collapse-content text-sm">
-                    <p>{item.answer}</p>
+                )
+              })
+            }
+          </div>
+          <div>
+            {
+              faq2.map((item, index) => {
+                return (
+                  <div tabIndex={index} key={index} className="collapse text-white mb-2 bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
+                    <div className="collapse-title text-lg font-medium">
+                      {item.question}
+                    </div>
+                    <div className="collapse-content text-sm">
+                      <p>{item.answer}</p>
+                    </div>
                   </div>
-                </div>
-              )
-            })
-          }
+                )
+              })
+            }
+          </div>
 
         </div>
       </div>
