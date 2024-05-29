@@ -20,8 +20,8 @@ const Extra = () => {
             src={ImagePath.LOGO}
             width={200}
             height={200}
-            className="h-auto mb-6  w-[95px] md:w-[300px]"
-            alt="logo=image"
+            className="h-auto mb-6 m-auto md:mx-0 w-[200px] md:w-[300px]"
+            alt="logo-image"
           />
           <p className="mb-2 text-lg font-medium text-gray-800 md:text-justify">
             Every Child is Special and Deserves an Education as per Their Own
@@ -51,10 +51,10 @@ const Extra = () => {
         </div>
         <div className="mb-4 md:mb-0">
           <Image
-            src={ImagePath.EXTRA_IMG}
+            src={'/about_image.png'}
             width={800}
             height={800}
-            className="h-auto w-[300px] md:w-[400px] m-auto"
+            className="h-auto border rounded-xl w-[300px] md:w-[400px] m-auto bg-white"
             alt="img"
           />
         </div>
