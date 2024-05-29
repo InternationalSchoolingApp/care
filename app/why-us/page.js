@@ -126,14 +126,17 @@ const WhyUs = () => {
             {
               faq1.map((item, index) => {
                 return (
-                  <div tabIndex={index} key={index} className="collapse text-white mb-2 bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
-                    <div className="collapse-title text-lg font-medium">
+                  <div className="collapse collapse-arrow bg-base-200 mb-2" key={index}>
+                    <input type="radio" name="my-accordion-2" defaultChecked />
+                    <div className="collapse-title  font-medium">
                       {item.question}
                     </div>
                     <div className="collapse-content text-sm">
                       <p>{item.answer}</p>
                     </div>
                   </div>
+                  // <div tabIndex={index} key={index} className="collapse text-blue-900 mb-2 bg-base-200 shadow h-max !rounded ">
+
                 )
               })
             }
@@ -142,8 +145,9 @@ const WhyUs = () => {
             {
               faq2.map((item, index) => {
                 return (
-                  <div tabIndex={index} key={index} className="collapse text-white mb-2 bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
-                    <div className="collapse-title text-lg font-medium">
+                  <div className="collapse collapse-arrow bg-base-200 mb-2" key={index}>
+                    <input type="radio" name="my-accordion-2" defaultChecked />
+                    <div className="collapse-title  font-medium">
                       {item.question}
                     </div>
                     <div className="collapse-content text-sm">

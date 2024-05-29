@@ -1,6 +1,6 @@
 "usse client"
 import GluEffect from '@components/GluEffect';
-import ReviewsParent from '@components/ReviewsParent';
+//import ReviewsParent from '@components/ReviewsParent';
 import ImagePath from '@constants/ImagePath';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -25,14 +25,14 @@ const HomePage = () => {
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Approved.</h4>
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Recognized.</h4>
           </div>
-          <p className='mb-4 text-justify'>International Schooling is an American Online School accredited by Cognia, USA, approved by College Board, USA, and powered by Discovery Education. We offer American curriculum for grades KG–12. <br />International Schooling Care+ is an initiative to offer special school education support to students with different learning needs. With over 80+ Special Educators, International Schooling celebrates the unique needs of 500+ students since 2017.</p>
+          <p className='mb-4 text-justify'>International Schooling is an American Online School accredited by Cognia, USA, approved by College Board, USA, and powered by Discovery Education. We offer American curriculum for grades KG–12. <br />International Schooling Care+ is an initiative to offer special school education support to students with different learning needs. With over 80+ Special Educators, International Schooling has been supporting hundreds of special needs students since 2017.</p>
           <Link href={'/contact'} className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</Link>
         </div>
         <div className='mb-4 md:mb-0'>
           <Image width={400} height={400} src={ImagePath.MAIN_BANNER} alt='banner img' className='h-auto m-auto md:mx-0 w-2/3 md:w-full' />
         </div>
       </div>
-      <div className='r-w py-6 md:py-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-5 rounded-xl shadow border bg-red-50 !mb-4'>
+      <div className='r-w py-6 md:py-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-5 rounded-xl shadow border bg-[#EAE6FF] !mb-4'>
         <div className='text-center px-2'>
           <h2 className='text-4xl mb-2s g-t text-transparent m-auto bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>KG-12</h2>
           <p>American Curriculum</p>
@@ -111,9 +111,9 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className='py-6 bg-gradient-to-r from-red-800 to-blue-800 mb-4'>
+      {/* <div className='py-6 bg-gradient-to-r from-red-800 to-blue-800 mb-4'>
         <ReviewsParent />
-      </div>
+      </div> */}
       <div className="e-card border playing r-w py-4 px-2 md:px-4 flex flex-col !mb-4 justify-center items-center bg-blue-800 ">
         <div className="wave"></div>
         <div className="wave"></div>
