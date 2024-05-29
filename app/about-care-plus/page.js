@@ -23,7 +23,7 @@ const Extra = () => {
               src={ImagePath.LOGO}
               width={200}
               height={200}
-              className="h-auto w-[95px] md:w-[200px]"
+              className="h-auto  w-[95px] md:w-[200px]"
               alt="logo=image"
             />
           </div>
