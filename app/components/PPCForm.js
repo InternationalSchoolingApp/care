@@ -153,7 +153,7 @@ const PPCForm = ({ folderName }) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         //const url = 'https://localhost:9090/lead-api/api/v1/common/save-ppc-request-content';
-        const url = 'https://sm.internationalschooling.org//api/v1/common/save-ppc-request-content';
+        const url = 'https://sm.internationalschooling.org/api/v1/common/save-ppc-request-content';
         try {
             const response = await fetch(url, {
                 method: 'POST',

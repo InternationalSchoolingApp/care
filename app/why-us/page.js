@@ -10,6 +10,52 @@ export const metadata = {
 };
 
 const WhyUs = () => {
+
+  const faq = [
+    {
+      question: "How do your special educators create a supporting learning environment for children with special needs?",
+      answer: "Our trained special educators are internationally and nationally certified to cater to every need of your child in the schooling environment. Their expertise with creating different learning plans and employing new methods of teaching will make learning easy and fun for your children."
+    },
+    {
+      question: "How do you provide emotional support to students?",
+      answer: "Unlike any other school, International Schooling ensures that personalized attention is given to every student. Academic and emotional needs of our students are met by our special educators to ensure that they are able to flourish in their lives. "
+    },
+    {
+      question: "How is the curriculum at International Schooling different from other schools?",
+      answer: "At International Schooling students are not expected to follow a strict curriculum that does not interest them or challenge them, instead the curriculum is tailor-made according to their requirements. The curriculum ensures that the students are able to maximize their strengths and work on their weaknesses. International schooling offers a wide range of courses that will prepare our students for the future."
+    },
+    {
+      question: "What if my child feels a burden at school?",
+      answer: "We ensure that our students do not feel any pressure or burden while pursuing their schooling with us. Regular feedback is taken from the parents and the students for continuous improvement."
+    },
+    {
+      question: "How does International Schooling support the unique talents of the students?",
+      answer: "Our school values the unique talents of our special students. We create an atmosphere of positivity and support where the student can grow and experiment new things in order to understand where they shine. We offer our students with ample opportunities to showcase their talents and be the leaders of tomorrow."
+    },
+    {
+      question: "Can I contact International Schooling if my child requires support after normal hours?",
+      answer: "Our team of administration works around the clock for our students and parents. We understand that all the needs of our students are important and we are here to offer unconditional support."
+    },
+    {
+      question: "Will my child have flexibility in timings if they join International Schooling?",
+      answer: "International Schooling offers its students immense flexibility which empowers them to be who they are. Our special educators are available day and night for our students. The classes can be scheduled according to your preferred time which ensures that your children are able to learn better and also engage in activities outside school."
+    },
+    {
+      question: "How does International Schooling ensure student safety?",
+      answer: "At International Schooling, student safety is of utmost importance. We ensure that our students thrive in a secure learning environment. Our special educators and administrators take proper care of our students' wellbeing."
+    },
+    {
+      question: "How will my child interact with other students?",
+      answer: "Your child will have the opportunity to interact with students from different countries and understand different cultures. It helps them see the world with a new perspective. Every week the students engage in a Meet Your Classmates activity where they can discuss and share aspects about their culture. It is an activity that fosters bonding and harmony among the students."
+    },
+    {
+      question: "Does International Schooling offer counseling services?",
+      answer: "We are proud to have a special team of counselors who offer our students with free personal and career counseling. Our counselors are trained to understand and empathize with our students."
+    },
+  ]
+
+
+
   return (
     <div className="w-full ">
       <GluEffect />
@@ -69,21 +115,25 @@ const WhyUs = () => {
           </p>
         </div>
       </div> */}
-      <div className="!mb-8 r-w">
+      <div className="!mb-8 r-w ">
         <h2 className="mb-4 text-xl md:text-2xl font-black text-blue-600 text-center md:text-left">Our Key Features -</h2>
-        <ul className="list-disc space-y-2  text-justify">
-          <li>Our trained special educators are internationally and nationally certified to cater to every need of your child in the schooling environment. Their expertise with creating different learning plans and employing new methods of teaching will make learning easy and fun for your children.</li>
-          <li>Unlike any other school, International Schooling ensures that personalized attention is given to every student. Academic and emotional needs of our students are met by our special educators to ensure that they are able to flourish in their lives.</li>
-          <li>At International Schooling students are not expected to follow a strict curriculum that does not interest them or challenge them, instead the curriculum is tailor-made according to their requirements. The curriculum ensures that the students are able to maximize their strengths and work on their weaknesses.</li>
-          <li>We ensure that our students do not feel any pressure or burden while pursuing their schooling with us. Regular feedback is taken from the parents and the students for continuous improvement.</li>
-          <li>Our school values the unique talents of our special students. We create an atmosphere of positivity and support where the student can grow and experiment new things in order to understand where they shine. We offer our students with ample opportunities to showcase their talents and be the leaders of tomorrow.</li>
-          <li>Our team of administration works around the clock for our students and parents. We understand that all the needs of our students are important and we are here to offer unconditional support. </li>
-          <li>International Schooling offers its students immense flexibility which empowers them to be who they are. Our special educators are available day and night for our students. The classes can be scheduled according to your preferred time which ensures that your children are able to learn better and also engage in activities outside the school.</li>
-          <li>At International Schooling, student safety is of utmost importance. We ensure that our students thrive in a secure learning environment. Our special educators and administrators take proper care of our students' wellbeing.</li>
-          <li>Your child will have the opportunity to interact with students from different countries and understand different cultures. It helps them see the world with a new perspective. Every week the students engage in a Meet Your Classmates activity where they can discuss and share aspects about their culture. It is an activity that fosters bonding and harmony among the students.</li>
-          <li>We are proud to have a special team of counselors who offer our students with free personal and career counseling. Our counselors are trained to understand and empathize with our students</li>
-          <li>International schooling offers a wide range of courses that will prepare our students for the future.</li>
-        </ul>
+        <div className="grid gap-3">
+          {
+            faq.map((item, index) => {
+              return (
+                <div tabIndex={index} className="collapse text-white bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
+                  <div className="collapse-title text-lg font-medium">
+                    {item.question}
+                  </div>
+                  <div className="collapse-content text-sm">
+                    <p>{item.answer}</p>
+                  </div>
+                </div>
+              )
+            })
+          }
+
+        </div>
       </div>
     </div>
   );

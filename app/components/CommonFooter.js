@@ -14,7 +14,6 @@ const CommonFooter = () => {
                 <Image width={200} height={100} src={ImagePath.LOGO} className='h-auto m-auto mb-4 md:mb-0 ' alt='logo-footer' />
                 <Social />
                 {/* </div> */}
-
                 {/* <div className=''>
                     <h3 className='text-xl mb-4'>Quick Links</h3>
                     <ul>
