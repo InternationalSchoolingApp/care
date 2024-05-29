@@ -121,7 +121,7 @@ const WhyUs = () => {
           {
             faq.map((item, index) => {
               return (
-                <div tabIndex={index} className="collapse text-white bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
+                <div tabIndex={index} key={index} className="collapse text-white bg-gradient-to-r from-blue-900 to-blue-500 h-max ">
                   <div className="collapse-title text-lg font-medium">
                     {item.question}
                   </div>
