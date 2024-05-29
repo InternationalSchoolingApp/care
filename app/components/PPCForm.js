@@ -89,6 +89,7 @@ const PPCForm = ({ folderName }) => {
 
     const [countryId, setCountryId] = useState('');
     const [countryName, setCountryName] = useState('');
+    const [dob, setDob] = useState('');
 
     const handleCountryChange = (event) => {
 
@@ -230,7 +231,7 @@ const PPCForm = ({ folderName }) => {
                             required
                             value={firstName}
                             onChange={(e) => handleInputChange(e, setFirstName)}
-                            placeholder="First Name"
+                            placeholder="Child First Name"
                             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 "
                         />
                     </div>
@@ -244,11 +245,47 @@ const PPCForm = ({ folderName }) => {
                             value={lastName}
                             required
                             onChange={(e) => handleInputChange(e, setLastName)}
-                            placeholder="Last Name"
+                            placeholder="Child Last Name"
                             className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 "
                         />
                     </div>
                 </div>
+
+                <div className='w-full'>
+                    <label htmlFor="dob" className="mb-1 text-sm font-medium text-gray-900 ">
+                        Child Date of Birth <sup>*</sup>
+                    </label>
+                    <input
+                        name="dob"
+                        required
+                        onChange={(e) => handleInputChange(e, setDob)}
+                        id="dob"
+                        type='date'
+                        className="bg-gray-50 uppercase border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 w-full p-2.5 "
+                    />
+                </div>
+
+
+
+                <div>
+                    <label htmlFor="grade" className="block mb-1 text-sm font-medium text-gray-900 ">
+                        Grade <sup>*</sup>
+                    </label>
+                    <select
+                        id="grade"
+                        name="grade"
+                        value={grade}
+                        required
+                        onChange={handleGradeChange}
+                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5  custom-select appearance-none bg-no-repeat"
+                    >
+                        <option value="" disabled defaultChecked>Select Child Grade</option>
+                        {grades.map((grade, index) => (
+                            <option key={index} value={grade.value}>{grade.label}</option>
+                        ))}
+                    </select>
+                </div>
+
                 <div>
                     <label htmlFor="email" className="block mb-1 text-sm font-medium text-gray-900 ">
                         Email <sup>*</sup>
@@ -262,26 +299,47 @@ const PPCForm = ({ folderName }) => {
                         value={email}
                         onChange={(e) => handleInputChange(e, setEmail)}
                         className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 "
-                        placeholder="username@domain.com"
+                        placeholder="Father/Mother Email"
                     />
                 </div>
-                <div>
-                    <label htmlFor="grade" className="block mb-1 text-sm font-medium text-gray-900 ">
-                        Grade <sup>*</sup>
-                    </label>
-                    <select
-                        id="grade"
-                        name="grade"
-                        value={grade}
-                        required
-                        onChange={handleGradeChange}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5  custom-select appearance-none bg-no-repeat"
-                    >
-                        <option value="" disabled defaultChecked>Select Grade</option>
-                        {grades.map((grade, index) => (
-                            <option key={index} value={grade.value}>{grade.label}</option>
-                        ))}
-                    </select>
+
+
+
+
+
+                <div className="w-full grid grid-cols-3 gap-1">
+                    <div>
+                        <label htmlFor="phoneCode" className="block mb-1 text-sm font-medium text-gray-900 ">
+                            Phone Code <sup>*</sup>
+                        </label>
+                        <select
+                            id="phoneCode"
+                            name="phoneCode"
+                            required
+                            value={phoneCodeCountry}
+                            onChange={handleCountryChange}
+                            className="bg-gray-50 border px-4 border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5  custom-select appearance-none bg-no-repeat"
+                        >
+                            <option value="" disabled defaultChecked>Select Code</option>
+                            {countries.map((item, index) => (
+                                <option key={index} value={item.value}>{item.value} &#40;{item.custom_dial_code}&#41;</option>
+                            ))}
+                        </select>
+                    </div>
+                    <div className='col-span-2'>
+                        <label htmlFor="phone" className="mb-1 text-sm font-medium text-gray-900 ">
+                            Phone Number <sup>*</sup>
+                        </label>
+                        <input
+                            name="phone"
+                            required
+                            id="phone"
+                            value={phone}
+                            onChange={(e) => handleInputChange(e, setPhone)}
+                            className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 w-full p-2.5 "
+                            placeholder="Father/Mother Phone"
+                        />
+                    </div>
                 </div>
 
                 <div>
@@ -314,47 +372,9 @@ const PPCForm = ({ folderName }) => {
                     </select>
                 </div>
 
-                <div className="w-full grid grid-cols-3 gap-1">
-                    <div>
-                        <label htmlFor="phoneCode" className="block mb-1 text-sm font-medium text-gray-900 ">
-                            Phone Code <sup>*</sup>
-                        </label>
-                        <select
-                            id="phoneCode"
-                            name="phoneCode"
-                            required
-                            value={phoneCodeCountry}
-                            onChange={handleCountryChange}
-                            className="bg-gray-50 border px-4 border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5  custom-select appearance-none bg-no-repeat"
-                        >
-                            <option value="" disabled defaultChecked>Select Code</option>
-                            {countries.map((item, index) => (
-                                <option key={index} value={item.value}>{item.value} &#40;{item.custom_dial_code}&#41;</option>
-                            ))}
-                        </select>
-                    </div>
-                    <div className='col-span-2'>
-                        <label htmlFor="phone" className="mb-1 text-sm font-medium text-gray-900 ">
-                            Phone Number <sup>*</sup>
-                        </label>
-                        <input
-                            name="phone"
-                            required
-                            id="phone"
-                            value={phone}
-                            onChange={(e) => handleInputChange(e, setPhone)}
-                            className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 w-full p-2.5 "
-                            placeholder="92XXXXXXX"
-                        />
-                    </div>
-                </div>
-
-
-
-
                 <div>
                     <label htmlFor="message" className="block mb-1 text-sm font-medium text-gray-900 ">
-                        Message
+                        Tell us more about your child
                     </label>
                     <textarea
                         name="message"

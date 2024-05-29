@@ -15,18 +15,14 @@ const Extra = () => {
       <GluEffect />
       <div className="r-w flex flex-col-reverse md:flex-row md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
         <div className="md:w-2/3 mb-4 md:mb-0 ">
-          <div className="flex gap-2 w-max md:w-full m-auto md:m-0 items-center  mb-4">
-            <h2 className="g-t font-extrabold text-3xl md:text-7xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">
-              About
-            </h2>
-            <Image
-              src={ImagePath.LOGO}
-              width={200}
-              height={200}
-              className="h-auto  w-[95px] md:w-[200px]"
-              alt="logo=image"
-            />
-          </div>
+
+          <Image
+            src={ImagePath.LOGO}
+            width={200}
+            height={200}
+            className="h-auto mb-6  w-[95px] md:w-[300px]"
+            alt="logo=image"
+          />
           <p className="mb-2 text-lg font-medium text-gray-800 md:text-justify">
             Every Child is Special and Deserves an Education as per Their Own
             Needs

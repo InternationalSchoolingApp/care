@@ -37,7 +37,7 @@ const WhyUs = () => {
           />
         </div>
       </div>
-      <div className="r-w text-center md:text-left py-8 px-8 bg-gradient-to-r from-[#001FCF] to-[#007EFF] mb-4 rounded-2xl">
+      <div className="r-w text-center md:text-left  py-8 px-8 bg-gradient-to-r from-[#001FCF] to-[#007EFF] !mb-8 rounded-2xl">
         <h2 className="text-white text-2xl font-bold mb-2">We Understand</h2>
         <p className="text-white md:text-justify text-sm">
           As parents we want our children to have the best education. However children with special needs are left behind by their peers and are unable to reach their full potential because of the rules and regulations. Thousands of children worldwide do not have access to quality education because of their special needs and learning differences.
@@ -46,7 +46,7 @@ const WhyUs = () => {
           This is why International Schooling is the best choice for your child. We are home to thousands of children from all around the world. We value and appreciate every student and are committed to providing them with unconditional support. Our curriculum is tailor-made for each child keeping in mind their strengths, uniqueness and limitations. We do not expect our students to conform to strict curriculum that will hamper their skills. Instead we give them the resources and opportunity to explore their skills and work on their strengths. We support them in becoming the leaders of tomorrow. Our internationally and nationally trained teachers will take care of academic as well as emotional needs of your child. They provide unconditional positive regard to all our students. They cater to the special needs of your child to ensure great academic as well as personal growth.
         </p>
       </div>
-      <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
+      {/* <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
         <div className="mb-6  text-left md:mb-0">
           <Image width={300} height={300} src={ImagePath.EXTRA_IMG} alt="why-us" className="h-auto" />
 
@@ -68,7 +68,7 @@ const WhyUs = () => {
             designed for them.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="!mb-8 r-w">
         <h2 className="mb-4 text-xl md:text-2xl font-black text-blue-600 text-center md:text-left">Our Key Features -</h2>
         <ul className="list-disc space-y-2  text-justify">

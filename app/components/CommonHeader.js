@@ -40,7 +40,7 @@ const CommonHeader = () => {
           <Image
             src={ImagePath.IS_LOGO}
             width={300}
-            height={200}
+            height={100}
             className="w-[170px] md:w-[300px] h-auto "
             alt="care plus logo"
           />
@@ -55,7 +55,7 @@ const CommonHeader = () => {
             return (
               <Link
                 key={index}
-                className="hover:text-blue-500 w-full mb-2  py-2 px-4 rounded hover:bg-base-200"
+                className="hover:text-blue-500 font-medium w-full mb-2  py-2 px-4 rounded hover:bg-base-200"
                 href={item.link}
               >
                 {item.title}
