@@ -13,9 +13,8 @@ const Extra = () => {
   return (
     <div className="w-full">
       <GluEffect />
-      <div className="r-w flex flex-col-reverse md:flex-row md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
+      <div className="r-w flex  flex-col-reverse md:flex-row md:gap-12 py-6 md:py-16 md:items-center text-center md:text-left">
         <div className="md:w-2/3 mb-4 md:mb-0 ">
-
           <Image
             src={ImagePath.LOGO}
             width={200}
@@ -49,15 +48,13 @@ const Extra = () => {
             these young minds to make meaningful contributions to society.
           </p>
         </div>
-        <div className="mb-4 md:mb-0">
-          <Image
-            src={'/about_image.png'}
-            width={800}
-            height={800}
-            className="h-auto border rounded-xl w-[300px] md:w-[400px] m-auto bg-white"
-            alt="img"
-          />
-        </div>
+        <Image
+          src={'/boy_1.webp'}
+          width={400}
+          height={400}
+          className="h-auto border rounded-xl w-[300px] md:w-[400px] mx-auto bg-white shadow mb-4 md:mb-0 "
+          alt="img"
+        />
       </div>
       <div className="r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-justify border-b ">
         <Image
