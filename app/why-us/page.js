@@ -120,7 +120,7 @@ const WhyUs = () => {
         </div>
       </div> */}
       <div className="!mb-8 r-w ">
-        <h2 className="mb-4 text-xl md:text-2xl font-black text-blue-600 text-center md:text-left">Our Key Features -</h2>
+        <h2 className="mb-4 text-xl md:text-2xl font-black text-blue-600 text-center md:text-left">Frequently Asked Questions -</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div>
             {
