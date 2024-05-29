@@ -48,8 +48,7 @@ const HomePage = () => {
       </div>
 
       <div className='py-6 md:flex md:items-center md:gap-5 r-w'>
-        <Image src={'/girl_img.png'} width={280} height={300} className=' max-w-full h-auto mb-4 md:mb-0 m-auto md:mx-0' />
-
+        <Image src={'/girl_img_opt.webp'} width={280} height={300} className=' max-w-full h-auto mb-4 md:mb-0 m-auto md:mx-0' />
         <div className='text-center md:text-justify'>
           <h2 className='text-3xl font-bold text-gray-700 mb-4'>Special Education Support </h2>
           <p className='mb-2 text-sm'>School education is the most basic need of every individual. As educators, we firmly believe that no child, under any circumstance, should be deprived of it. We also understand that every student is different and has unique learning needs. Expecting every child to learn using the same methods not only hampers their growth but also limits their individual potential. As every student is special in their own way, they deserve an education that celebrates and recognizes their differences.</p>
