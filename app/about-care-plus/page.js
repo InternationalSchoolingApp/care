@@ -13,7 +13,7 @@ const Extra = () => {
   return (
     <div className="w-full">
       <GluEffect />
-      <div className="r-w md:flex md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
+      <div className="r-w flex flex-col-reverse md:flex-row md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
         <div className="md:w-2/3 mb-4 md:mb-0 ">
           <div className="flex gap-2 w-max md:w-full m-auto md:m-0 items-center  mb-4">
             <h2 className="g-t font-extrabold text-3xl md:text-7xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">
@@ -53,12 +53,12 @@ const Extra = () => {
             these young minds to make meaningful contributions to society.
           </p>
         </div>
-        <div>
+        <div className="mb-4 md:mb-0">
           <Image
             src={ImagePath.EXTRA_IMG}
             width={800}
             height={800}
-            className="h-auto w-[200px] md:w-[400px] m-auto"
+            className="h-auto w-[300px] md:w-[400px] m-auto"
             alt="img"
           />
         </div>
@@ -69,7 +69,7 @@ const Extra = () => {
           height={200}
           src={"/adhd_portrait.jpg"}
           alt="first-img"
-          className="h-auto rounded-xl w-2/3 md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0"
+          className="h-auto rounded-xl  md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0"
         />
         <div className="w-full">
           <h2 className="text-sm md:text-lg font-semibold mb-2">
@@ -108,7 +108,7 @@ const Extra = () => {
           height={200}
           src={"/asd_portrait.jpg"}
           alt="first-img"
-          className="h-auto rounded-xl w-2/3 md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0"
+          className="h-auto rounded-xl md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0"
         />
         <div className="w-full">
           <h2 className="text-sm md:text-lg font-semibold mb-2">
@@ -143,7 +143,7 @@ const Extra = () => {
           height={200}
           src={"/ld_portrait.jpg"}
           alt="first-img"
-          className="h-auto rounded-xl w-2/3 md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0"
+          className="h-auto rounded-xl md:w-[300px] m-auto md:mx-0 mb-4 md:mb-0"
         />
         <div className="w-full">
           <h2 className="text-sm md:text-lg font-semibold mb-2">
