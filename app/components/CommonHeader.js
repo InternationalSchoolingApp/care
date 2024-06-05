@@ -41,6 +41,7 @@ const CommonHeader = () => {
             src={ImagePath.IS_LOGO}
             width={300}
             height={100}
+            priority
             className="w-[170px] md:w-[300px] h-auto "
             alt="care plus logo"
           />
