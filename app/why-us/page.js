@@ -1,4 +1,4 @@
-import GluEffect from "@components/GluEffect";
+//import GluEffect from "@components/GluEffect";
 import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
 import React from "react";
@@ -62,7 +62,7 @@ const WhyUs = () => {
 
   return (
     <div className="w-full ">
-      <GluEffect />
+      {/* <GluEffect /> */}
       <div className="r-w flex flex-col-reverse md:flex-row md:items-center md:gap-12 py-6 md:py-16 text-center md:text-left">
         <div className="md:w-2/3 !mb-4 md:mb-0 ">
           <h1 className="g-t mb-4 font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">

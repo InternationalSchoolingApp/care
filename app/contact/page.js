@@ -1,4 +1,4 @@
-import GluEffect from "@components/GluEffect";
+//import GluEffect from "@components/GluEffect";
 import PPCForm from "@components/PPCForm";
 import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
@@ -13,7 +13,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <>
-      <GluEffect />
+      {/* <GluEffect /> */}
       <div className="r-w flex flex-col lg:flex-row justify-center items-start pt-10 gap-10 !mb-8">
         <div className="text-[#5D5D5D] md:w-3/4 text-center md:text-left">
           <h1 className="text-2xl lg:text-6xl font-medium mb-4 md:mb-12">

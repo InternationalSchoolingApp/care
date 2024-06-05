@@ -15,7 +15,7 @@ const VideoPlayer = ({ url, thumb, imgWidth }) => {
     }
     return (
         <div className='w-full h-max' >{play ? <DynamicModal url={url} isPlay={close} /> :
-            (<div className='relative'>
+            (<div className='relative z-[999999]'>
                 <div onClick={() => { setIsPlay(true) }} className='cursor-pointer absolute inset-0 flex items-center justify-center'>
                     <div className='h-[50px] w-[50px] flex items-center justify-center pl-5 shadow-xl rounded-full p-4 bg-white'>
                         <svg xmlns="http://www.w3.org/2000/svg" width={36} height={36} className='fill-red-500 cursor-pointer' viewBox="0 0 384 512">

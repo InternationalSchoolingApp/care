@@ -1,4 +1,4 @@
-import GluEffect from "@components/GluEffect";
+//import GluEffect from "@components/GluEffect";
 import ImagePath from "@constants/ImagePath";
 import Image from "next/image";
 import React from "react";
@@ -12,7 +12,7 @@ export const metadata = {
 const Extra = () => {
   return (
     <div className="w-full">
-      <GluEffect />
+      {/* <GluEffect /> */}
       <div className="r-w flex  flex-col-reverse md:flex-row md:gap-12 py-6 md:py-16 md:items-center text-center md:text-left">
         <div className="md:w-2/3 mb-4 md:mb-0 ">
           <Image
