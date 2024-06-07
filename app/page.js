@@ -19,7 +19,7 @@ const HomePage = () => {
       <div className=' r-w py-6 md:py-12 md:flex md:items-center md:gap-10 mb-4'>
         <div className='mb-4 md:mb-0 md:w-2/3 text-center md:text-left'>
           <h2 className='text-2xl g-t text-transparent m-auto md:mx-0 bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>International Schooling</h2>
-          <Image width={400} priority height={400} src={ImagePath.LOGO} alt='banner img' className='h-auto !mb-4 m-auto md:mx-0 w-[180px] md:w-[240px] ' />
+          <Image width={400} height={400} src={ImagePath.LOGO} alt='banner img' className='h-auto !mb-4 m-auto md:mx-0 w-[180px] md:w-[240px] ' />
           <div className='flex mb-4 flex-col md:flex-row md:gap-3 md:items-center'>
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Accredited.</h4>
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Approved.</h4>
@@ -29,7 +29,7 @@ const HomePage = () => {
           <Link href={'/contact'} className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</Link>
         </div>
         <div className='md:mb-0 hidden md:block'>
-          <Image width={400} priority height={400} src={ImagePath.MAIN_BANNER} alt='banner img 2' className=' h-auto m-auto md:mx-0 w-2/3 md:w-full' />
+          <Image width={400} height={400} src={ImagePath.MAIN_BANNER} alt='banner img 2' className=' h-auto m-auto md:mx-0 w-2/3 md:w-full' />
         </div>
       </div>
       <div className='r-w py-6 md:py-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-5 rounded-xl shadow border bg-[#EAE6FF] !mb-4'>
