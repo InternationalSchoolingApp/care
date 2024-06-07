@@ -7,7 +7,7 @@ const ImagePath = {
   EXTRA_IMG: "/extra_img.png",
   ADHD: "/adhd.webp",
   ASD: "/asd.webp",
-  IS_LOGO: '/IS_Logo_Blue.webp',
+  IS_LOGO: '/IS_Logo_Blue_c.webp',
   LD: "/ld.webp",
   IMAGE_GIRL: "/main_page_girl.webp",
   CONTACT_MAP: "/contact-us-map.webp",

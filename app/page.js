@@ -25,7 +25,7 @@ const HomePage = () => {
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Approved.</h4>
             <h4 className='text-xl md:text-2xl font-semibold text-[#001FCF]'>✔ Recognized.</h4>
           </div>
-          <p className='mb-4 text-justify'>International Schooling is an American Online School accredited by Cognia, USA, approved by College Board, USA, and powered by Discovery Education. We offer American curriculum for grades KG–12. <br />International Schooling Care+ is an initiative to offer special school education support to students with different learning needs. With over 80+ Special Educators, International Schooling has been supporting hundreds of special needs students since 2017.</p>
+          <p className='mb-4 md:text-justify'>International Schooling is an American Online School accredited by Cognia, USA, approved by College Board, USA, and powered by Discovery Education. We offer American curriculum for grades KG–12. <br />International Schooling Care+ is an initiative to offer special school education support to students with different learning needs. With over 80+ Special Educators, International Schooling has been supporting hundreds of special needs students since 2017.</p>
           <Link href={'/contact'} className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</Link>
         </div>
         <div className='mb-4 md:mb-0'>
