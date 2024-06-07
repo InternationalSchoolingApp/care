@@ -10,8 +10,8 @@ const CommonFooter = () => {
         <div className='w-full border-t bg-[#F7FBFF]'>
             <div className='r-w grid grid-cols-1 md:grid-cols-3 item-center justify-center gap-4 py-8 '>
                 {/* <div > */}
-                <Image width={200} height={100} src={ImagePath.IS_LOGO} className='h-auto m-auto mb-4 md:mb-0 w-2/3 md:w-full ' alt='logo-footer' />
-                <Image width={200} height={100} src={ImagePath.LOGO} className='h-auto m-auto mb-4 md:mb-0 ' alt='logo-footer' />
+                <Image width={200} height={100} src={ImagePath.IS_LOGO} className='h-auto m-auto mb-4 md:mb-0 w-2/3 md:w-full ' alt='logo-footer-1' />
+                <Image width={200} height={100} src={ImagePath.LOGO} className='h-auto m-auto mb-4 md:mb-0 ' alt='logo-footer-2' />
                 <Social />
                 {/* </div> */}
                 {/* <div className=''>

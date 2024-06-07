@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html suppressHydrationWarning lang="en">
       <head>
         <GoogleTagManager />
       </head>
