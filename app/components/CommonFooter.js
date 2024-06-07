@@ -1,7 +1,5 @@
 import ImagePath from '@constants/ImagePath'
-// import UrlPath from '@constants/UrlPath'
 import Image from 'next/image'
-// import Link from 'next/link'
 import React from 'react'
 import Social from './Social'
 
@@ -13,24 +11,6 @@ const CommonFooter = () => {
                 <Image width={200} height={100} src={ImagePath.IS_LOGO} className='h-auto m-auto mb-4 md:mb-0 w-2/3 md:w-full ' alt='logo-footer-1' />
                 <Image width={200} height={100} src={ImagePath.LOGO} className='h-auto m-auto mb-4 md:mb-0 ' alt='logo-footer-2' />
                 <Social />
-                {/* </div> */}
-                {/* <div className=''>
-                    <h3 className='text-xl mb-4'>Quick Links</h3>
-                    <ul>
-                        <li><Link href={UrlPath.ABOUT} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>About us</Link></li>
-                        <li><Link href={UrlPath.CONTACT} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Contact us</Link></li>
-                        <li><Link href={UrlPath.WHY} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Why us</Link></li>
-                    </ul>
-                </div> */}
-
-                {/* < div >
-                    <h3 className='text-xl mb-4'>Legal</h3>
-                    <ul>
-                        <li><Link href={'https://internationalschooling.org/privacy-policy/'} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Privacy Policy</Link></li>
-                        <li><Link href={'https://internationalschooling.org/terms-of-use/'} className='text-gray-700 hover:text-blue-600 duration-150 mb-1'>Terms of use</Link></li>
-                    </ul>
-                </div > */}
-
             </div >
             <div className='w-full py-4 bg-gray-100'>
                 <div className='r-w md:flex md:justify-between md:items-center md:gap-5 md:text-left text-center'>
