@@ -5,7 +5,7 @@ import Image from "next/image";
 import ImagePath from "@constants/ImagePath";
 import Menu from "./Menu";
 import UrlPath from "@constants/UrlPath";
-import GoogleTagManager from "./GoogleTagManager";
+//import GoogleTagManager from "./GoogleTagManager";
 
 const CommonHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +65,6 @@ const CommonHeader = () => {
           })}
         </div>
       )}
-      <GoogleTagManager />
     </header>
   );
 };
