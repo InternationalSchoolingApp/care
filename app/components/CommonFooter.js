@@ -18,7 +18,6 @@ const CommonFooter = () => {
                     <p className='text-xs'>All Rights Reserved.</p>
                 </div>
             </div>
-
         </div >
     )
 }
