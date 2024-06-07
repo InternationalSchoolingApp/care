@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <div className=' w-full '>
       {/* <GluEffect /> */}
-      <div className=' r-w py-6 md:py-12 flex flex-col-reverse md:flex-row md:items-center md:gap-10 mb-4'>
+      <div className=' r-w py-6 md:py-12 md:flex md:items-center md:gap-10 mb-4'>
         <div className='mb-4 md:mb-0 md:w-2/3 text-center md:text-left'>
           <h2 className='text-2xl g-t text-transparent m-auto md:mx-0 bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl'>International Schooling</h2>
           <Image width={400} priority height={400} src={ImagePath.LOGO} alt='banner img' className='h-auto !mb-4 m-auto md:mx-0 w-[180px] md:w-[240px] ' />
@@ -28,8 +28,8 @@ const HomePage = () => {
           <p className='mb-4 md:text-justify'>International Schooling is an American Online School accredited by Cognia, USA, approved by College Board, USA, and powered by Discovery Education. We offer American curriculum for grades KG–12. <br />International Schooling Care+ is an initiative to offer special school education support to students with different learning needs. With over 80+ Special Educators, International Schooling has been supporting hundreds of special needs students since 2017.</p>
           <Link href={'/contact'} className='btn rounded-full bg-white hover:bg-base-200 border-[#001FCF] text-[#001FCF] hover:text-gray-800'>Contact now</Link>
         </div>
-        <div className='mb-4 md:mb-0'>
-          <Image width={400} priority height={400} src={ImagePath.MAIN_BANNER} alt='banner img 2' className='hidden md:block h-auto m-auto md:mx-0 w-2/3 md:w-full' />
+        <div className='md:mb-0 hidden md:block'>
+          <Image width={400} priority height={400} src={ImagePath.MAIN_BANNER} alt='banner img 2' className=' h-auto m-auto md:mx-0 w-2/3 md:w-full' />
         </div>
       </div>
       <div className='r-w py-6 md:py-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-5 rounded-xl shadow border bg-[#EAE6FF] !mb-4'>
