@@ -16,6 +16,7 @@ const Extra = () => {
       <div className="r-w flex  flex-col-reverse md:flex-row md:gap-12 py-6 md:py-16 md:items-center text-center md:text-left">
         <div className="md:w-2/3 mb-4 md:mb-0 ">
           <Image
+            priority
             src={ImagePath.LOGO}
             width={200}
             height={200}
@@ -49,6 +50,7 @@ const Extra = () => {
           </p>
         </div>
         <Image
+          priority
           src={'/boy_1.webp'}
           width={400}
           height={400}
@@ -58,6 +60,7 @@ const Extra = () => {
       </div>
       <div className="r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-justify border-b ">
         <Image
+          priority
           width={200}
           height={200}
           src={"/adhd_portrait.jpg"}
@@ -98,6 +101,7 @@ const Extra = () => {
       <div className="r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-left border-b">
         <Image
           width={200}
+          priority
           height={200}
           src={"/asd_portrait.jpg"}
           alt="first-img"
@@ -132,7 +136,7 @@ const Extra = () => {
       </div>
       <div className="r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-left !mb-4">
         <Image
-          width={200}
+          priority width={200}
           height={200}
           src={"/ld_portrait.jpg"}
           alt="first-img"
