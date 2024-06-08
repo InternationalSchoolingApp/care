@@ -16,12 +16,12 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <GoogleTagManager gtmId="GTM-PGC67T7" />
       <body className={montserrat.className}>
         <CommonHeader />
         {children}
         <CommonFooter />
       </body>
+      <GoogleTagManager gtmId="GTM-PGC67T7" />
     </html>
   );
 }
