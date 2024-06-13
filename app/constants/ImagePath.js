@@ -7,7 +7,7 @@ const ImagePath = {
   EXTRA_IMG: "/extra_img.png",
   ADHD: "/adhd.webp",
   ASD: "/asd.webp",
-  IS_LOGO: '/IS_Logo_Blue_c.webp',
+  IS_LOGO: "/IS_Logo_Blue_c.webp",
   LD: "/ld.webp",
   IMAGE_GIRL: "/main_page_girl.webp",
   CONTACT_MAP: "/contact-us-map.webp",
@@ -15,5 +15,6 @@ const ImagePath = {
   STUDENT_2_REVIEW: "/student-cover-2.webp",
   PARENT_1_REVIEW: "/parent-cover-1.webp",
   PARENT_2_REVIEW: "/parent-cover-2.webp",
+  BLOG_COVER: "/Blog-Banner-Main.webp",
 };
 export default ImagePath;

@@ -7,7 +7,9 @@ import Menu from "./Menu";
 import UrlPath from "@constants/UrlPath";
 import dynamic from "next/dynamic";
 
-const DynamicMobileMenu = dynamic(() => import("./MobileMenu.js"), { ssr: false });
+const DynamicModal = dynamic(() => import("./MobileMenu.js"), {
+  ssr: false,
+});
 
 const CommonHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +20,7 @@ const CommonHeader = () => {
 
   const menuItem = [
     {
-      title: 'Home',
+      title: "Home",
       link: UrlPath.HOME,
     },
     {
@@ -30,13 +32,17 @@ const CommonHeader = () => {
       link: UrlPath.WHY,
     },
     {
+      title: "Posts",
+      link: UrlPath.POST,
+    },
+    {
       title: "Talk to us",
       link: UrlPath.CONTACT,
     },
   ];
 
   return (
-    <header className="z-[999999] w-full py-3 border-b sticky top-0 left-0 right-0 text-black bg-[#F7FBFF] shadow ">
+    <header className="z-[999999] w-full py-3 border-b sticky top-0 left-0 right-0 text-black bg-[#F7FBFF]/70 backdrop-blur shadow ">
       <div className="r-w flex justify-between items-center gap-4">
         <Link href={"/"}>
           <Image
@@ -52,8 +58,7 @@ const CommonHeader = () => {
           <Menu menu={menu} items={menuItem} />
         </div>
       </div>
-      {isOpen && <DynamicModal menuItem={menuItem} />
-      }
+      {isOpen && <DynamicModal menuItem={menuItem} />}
     </header>
   );
 };
