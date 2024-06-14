@@ -7,6 +7,7 @@ export const metadata = {
   title: "About Care+ | International Schooling for Special Needs",
   description:
     "Learn about Care+, our initiative dedicated to providing tailored education for children with special needs. Discover how we cherish each child's uniqueness and nurture their remarkable talents.",
+  robots: "index,follow",
 };
 
 const Extra = () => {
@@ -51,7 +52,7 @@ const Extra = () => {
         </div>
         <Image
           priority
-          src={'/boy_1.webp'}
+          src={"/boy_1.webp"}
           width={400}
           height={400}
           className="h-auto border rounded-xl w-[300px] md:w-[400px] mx-auto bg-white shadow mb-4 md:mb-0 "
@@ -136,7 +137,8 @@ const Extra = () => {
       </div>
       <div className="r-w py-6 md:flex md:items-center md:gap-5 text-center md:text-left !mb-4">
         <Image
-          priority width={200}
+          priority
+          width={200}
           height={200}
           src={"/ld_portrait.jpg"}
           alt="first-img"

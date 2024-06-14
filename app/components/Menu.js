@@ -49,7 +49,8 @@ const Menu = ({ menu, items }) => {
       </label>
       <Link
         className="btn bg-blue-800 text-white hover:text-blue-800"
-        target="_"
+        target="_blank"
+        referrerPolicy="no-referrer"
         href={
           "https://sms.internationalschooling.org/international-schooling/student/enrollment/ONE_TO_ONE"
         }

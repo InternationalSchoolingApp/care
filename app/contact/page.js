@@ -7,7 +7,9 @@ import React from "react";
 
 export const metadata = {
   title: "Contact International Schooling Care+ for Special Needs Education",
-  description: "Get in touch with International Schooling Care+ for inquiries, support, or to learn more about our special needs education programs.",
+  description:
+    "Get in touch with International Schooling Care+ for inquiries, support, or to learn more about our special needs education programs.",
+  robots: "index,follow",
 };
 
 const Contact = () => {
@@ -19,7 +21,13 @@ const Contact = () => {
           <h1 className="text-2xl lg:text-6xl font-medium mb-4 md:mb-12">
             TALK TO US
           </h1>
-          <p className="text-black mb-12 md:text-xl"> Our counselors are trained and certified to create a safe space for you and your child. Their expertise and years of experience makes them the best at creating a special and customized learning plan for your child.</p>
+          <p className="text-black mb-12 md:text-xl">
+            {" "}
+            Our counselors are trained and certified to create a safe space for
+            you and your child. Their expertise and years of experience makes
+            them the best at creating a special and customized learning plan for
+            your child.
+          </p>
           <Image
             src={ImagePath.MAIN_BANNER}
             className="h-auto"
@@ -30,10 +38,14 @@ const Contact = () => {
           />
         </div>
         <div className="md:w-2/3">
-          <h2 className=" text-sm md:text-2xl font-bold mb-4 text-center" id="formTitle">Fill the Form, To Meet Our Counselor</h2>
-          <PPCForm folderName={'care'} />
+          <h2
+            className=" text-sm md:text-2xl font-bold mb-4 text-center"
+            id="formTitle"
+          >
+            Fill The Form To Meet Our Counselor
+          </h2>
+          <PPCForm folderName={"care"} />
         </div>
-
       </div>
 
       {/* <div className="r-w !mt-10 !mb-4 shadow backdrop-blur border rounded-2xl">
@@ -148,8 +160,6 @@ const Contact = () => {
           </div>
         </div>
       </div> */}
-
-
     </>
   );
 };
