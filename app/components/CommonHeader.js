@@ -31,10 +31,10 @@ const CommonHeader = () => {
       title: "Why IS",
       link: UrlPath.WHY,
     },
-    // {
-    //   title: "Posts",
-    //   link: UrlPath.POST,
-    // },
+    {
+      title: "Posts",
+      link: UrlPath.POST,
+    },
     {
       title: "Talk to us",
       link: UrlPath.CONTACT,
