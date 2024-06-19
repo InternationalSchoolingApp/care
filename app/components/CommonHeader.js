@@ -42,7 +42,7 @@ const CommonHeader = () => {
   ];
 
   return (
-    <header className="z-[999999] w-full py-3 border-b sticky top-0 left-0 right-0 text-black bg-[#F7FBFF]/70 backdrop-blur shadow ">
+    <header className="z-[999999] w-full py-3 border-b sticky top-0 left-0 right-0 text-black bg-[#F7FBFF]/70 bb shadow ">
       <div className="r-w flex justify-between items-center gap-4">
         <Link href={"/"}>
           <Image
