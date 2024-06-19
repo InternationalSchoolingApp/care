@@ -33,8 +33,8 @@ const Contact = () => {
             src={ImagePath.MAIN_BANNER}
             className="h-auto"
             width={500}
-            height={500}
-            priority
+            height={375}
+            priority={true}
             alt="map-contact-us"
           />
         </div>
