@@ -1,5 +1,5 @@
 import { db } from "../../app/firebase/app";
-import { collection, orderBy, query, limit, getDocs } from "firebase/firestore";
+import { collection, orderBy, query, limit, getDocs, where } from "firebase/firestore";
 
 export default async (req, res) => {
   if (req.method !== "POST") {
@@ -8,7 +8,7 @@ export default async (req, res) => {
       .json({ status: "failed", message: "Method Not Allowed" });
   }
 
-  const { count } = req.body;
+  const { count, type } = req.body;
 
   if (!count) {
     return res
@@ -21,7 +21,13 @@ export default async (req, res) => {
 
   try {
     const postContent = collection(db, "POSTS");
-    const q = query(postContent, orderBy("pubDate", "desc"), limit(count));
+    let q;
+    if (type) {
+      console.log(type)
+      q = query(postContent, where("type", "array-contains", type), orderBy("pubDate", "desc"), limit(count));
+    } else {
+      q = query(postContent, orderBy("pubDate", "desc"), where(), limit(count));
+    }
     const postsQuery = await getDocs(q);
 
     const posts = [];

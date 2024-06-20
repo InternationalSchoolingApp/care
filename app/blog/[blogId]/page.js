@@ -139,7 +139,7 @@ async function page({ params }) {
               {post.featuredImg && (
                 <div className="md:w-3/4 w-full">
                   <img
-                    src={`https://is-website-fawn.vercel.app/${post.featuredImg}`}
+                    src={post.featuredImg.includes("data:image/") ? post.featuredImg : `https://is-website-fawn.vercel.app/${post.featuredImg}`}
                     width={500}
                     height={500}
                     alt="blog-banner"

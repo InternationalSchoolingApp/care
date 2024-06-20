@@ -14,6 +14,7 @@ const BlogCards = () => {
       try {
         const requestBody = {
           count: countPerPage,
+          type: "care"
         };
         const response = await fetch("/api/getPostsByNumbers", {
           method: "POST",
@@ -65,7 +66,8 @@ const BlogCards = () => {
                     <Image
                       width={500}
                       height={500}
-                      src={`https://is-website-fawn.vercel.app/${item.featuredImg}`}
+                      src={item.featuredImg.includes("data:image") ? item.featuredImg : `https://is-website-fawn.vercel.app/${item.featuredImg}`}
+                      // src={item.featuredImg}
                       priority
                       alt={item.postName}
                       className="bg-white rounded-t-2xl w-full mb-2 h-56 object-cover"
