@@ -13,8 +13,7 @@ const BlogCards = () => {
     const fetchData = async () => {
       try {
         const requestBody = {
-          count: countPerPage,
-          type: "care"
+          count: countPerPage
         };
         const response = await fetch("/api/getPostsByNumbers", {
           method: "POST",
