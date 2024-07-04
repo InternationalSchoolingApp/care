@@ -248,7 +248,7 @@ const DemoForm = ({ folderName }) => {
                 if (result.startDate) payload += `&sd=${base64Encode(result.startDate)}`
                 if (result.endDate) payload += `&ed=${base64Encode(result.endDate)}`
 
-                redirectUrl = `${ORIGIN_URL}/is-thankyou${payload}`;
+                redirectUrl = `${ORIGIN_URL}/is-demo-thankyou${payload}`;
                 if (folderName === 'brochure') {
                     redirectUrl = `${ORIGIN_URL}/brochure-thankyou/${payload}`;
                 }
