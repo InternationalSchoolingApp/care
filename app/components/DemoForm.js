@@ -219,8 +219,8 @@ const DemoForm = ({ folderName }) => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        const url = 'http://localhost:9090/lead-api/api/v1/common/reqeust-demo-content';
-        //const url = 'https://sm.internationalschooling.org/api/v1/common/reqeust-demo-content';
+        //const url = 'http://localhost:9090/lead-api/api/v1/common/reqeust-demo-content';
+        const url = 'https://sm.internationalschooling.org/api/v1/common/reqeust-demo-content';
         try {
             const response = await fetch(url, {
                 method: 'POST',
@@ -269,8 +269,8 @@ const DemoForm = ({ folderName }) => {
 
     useEffect(() => {
         const fetchFreeSlots = async () => {
-            const url = 'http://localhost:9090/lead-api/api/v1/common/free-slots-list';
-            //const url = "https://sm.internationalschooling.org/api/v1/common/free-slots-list";
+            //const url = 'http://localhost:9090/lead-api/api/v1/common/free-slots-list';
+            const url = "https://sm.internationalschooling.org/api/v1/common/free-slots-list";
             const payload = {
                 book: "Y",
                 countryTimezoneId: timezone,
