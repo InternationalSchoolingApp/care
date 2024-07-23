@@ -16,5 +16,9 @@ const ImagePath = {
   PARENT_1_REVIEW: "/parent-cover-1.webp",
   PARENT_2_REVIEW: "/parent-cover-2.webp",
   BLOG_COVER: "/Blog-Banner-Main.webp",
+  CARE_PLUS_LOGO: "/care_plus_logo_1.png",
+  HERO: "/hero_img.png",
+  SPECIAL_EDUCATION_SUPPORT_IMAGE: "/special_education_support.png",
+  FEEDBACK_ICON: "/feedback_icon.svg",
 };
 export default ImagePath;
