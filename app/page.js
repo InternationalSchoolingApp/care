@@ -19,9 +19,9 @@ const HomePage = () => {
       {/* <GluEffect /> */}
       <div className=" r-w py-6 md:py-12 md:flex md:items-center md:gap-10 mb-4">
         <div className="mb-4 md:mb-0 md:w-2/3 text-center md:text-left">
-          <h2 className="text-2xl g-t text-transparent m-auto md:mx-0 bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl">
+          <h1 className="text-2xl g-t text-transparent m-auto md:mx-0 bg-clip-text w-max bg-gradient-to-r py-2 to-[#007EFF] from-[#001FCF] font-semibold md:text-5xl">
             International Schooling
-          </h2>
+          </h1>
           <Image
             priority
             width={400}

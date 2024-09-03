@@ -24,10 +24,10 @@ const Extra = () => {
             className="h-auto mb-6 m-auto md:mx-0 w-[200px] md:w-[300px]"
             alt="logo-image"
           />
-          <p className="mb-2 text-lg font-medium text-gray-800 md:text-justify">
+          <h1 className="mb-2 text-lg font-medium text-gray-800 md:text-justify">
             Every Child is Special and Deserves an Education as per Their Own
             Needs
-          </p>
+          </h1>
           <p className="text-gray-800 md:text-justify text-sm">
             There are no two children in the world that are the same. Every
             child is different and their uniqueness needs to be cherished. When
