@@ -30,7 +30,7 @@ const Contact = () => {
             your child.
           </p>
           <Image
-            src={ImagePath.MAIN_BANNER}
+            src={"/contact-us-map-updated.webp"}
             className="h-auto"
             width={500}
             height={375}
