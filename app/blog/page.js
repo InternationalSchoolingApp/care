@@ -5,7 +5,7 @@ import React from "react";
 export const metadata = {
   title: "Find CARE+ resources, reviews, tools, and much more",
   description:
-    "Find Homeschooling resources, curriculum, advice, reviews, tools, and much more",
+    "Find Homeschooling CARE+ resources, curriculum, advice, reviews, tools, and much more",
   robots: "index,follow",
   referrer: "no-referrer-when-downgrade",
 };
